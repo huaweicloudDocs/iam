@@ -19,12 +19,12 @@
 </td>
 <td class="cellrowborder" valign="top" width="33.28667133286672%" headers="mcps1.2.4.1.2 "><p id="p841918397413"><a name="p841918397413"></a><a name="p841918397413"></a>bucket</p>
 </td>
-<td class="cellrowborder" valign="top" width="33.37666233376663%" headers="mcps1.2.4.1.3 "><p id="p17419539642"><a name="p17419539642"></a><a name="p17419539642"></a><span>桶</span></p>
+<td class="cellrowborder" valign="top" width="33.37666233376663%" headers="mcps1.2.4.1.3 "><p id="p17419539642"><a name="p17419539642"></a><a name="p17419539642"></a>桶</p>
 </td>
 </tr>
 <tr id="row0675161032916"><td class="cellrowborder" valign="top" headers="mcps1.2.4.1.1 "><p id="p2868471356"><a name="p2868471356"></a><a name="p2868471356"></a>object</p>
 </td>
-<td class="cellrowborder" valign="top" headers="mcps1.2.4.1.2 "><p id="p11868773510"><a name="p11868773510"></a><a name="p11868773510"></a><span>对象</span></p>
+<td class="cellrowborder" valign="top" headers="mcps1.2.4.1.2 "><p id="p11868773510"><a name="p11868773510"></a><a name="p11868773510"></a>对象</p>
 </td>
 </tr>
 <tr id="row1443410549545"><td class="cellrowborder" rowspan="8" valign="top" width="33.33666633336667%" headers="mcps1.2.4.1.1 "><p id="p186571542838"><a name="p186571542838"></a><a name="p186571542838"></a><a href="https://support.huaweicloud.com/usermanual-ief/ief_01_0066.html" target="_blank" rel="noopener noreferrer">智能边缘平台（IEF）</a></p>
@@ -103,71 +103,71 @@
 </tr>
 <tr id="row45161899517"><td class="cellrowborder" rowspan="2" valign="top" width="33.33666633336667%" headers="mcps1.2.4.1.1 "><p id="p1516179557"><a name="p1516179557"></a><a name="p1516179557"></a><a href="https://support.huaweicloud.com/usermanual-ges/ges_01_0074.html" target="_blank" rel="noopener noreferrer">图引擎服务（GES）</a></p>
 </td>
-<td class="cellrowborder" valign="top" width="33.28667133286672%" headers="mcps1.2.4.1.2 "><p id="p15161591257"><a name="p15161591257"></a><a name="p15161591257"></a><span>graphName</span></p>
+<td class="cellrowborder" valign="top" width="33.28667133286672%" headers="mcps1.2.4.1.2 "><p id="p15161591257"><a name="p15161591257"></a><a name="p15161591257"></a>graphName</p>
 </td>
-<td class="cellrowborder" valign="top" width="33.37666233376663%" headers="mcps1.2.4.1.3 "><p id="p145161892516"><a name="p145161892516"></a><a name="p145161892516"></a><span>图名称</span></p>
+<td class="cellrowborder" valign="top" width="33.37666233376663%" headers="mcps1.2.4.1.3 "><p id="p145161892516"><a name="p145161892516"></a><a name="p145161892516"></a>图名称</p>
 </td>
 </tr>
-<tr id="row14471249950"><td class="cellrowborder" valign="top" headers="mcps1.2.4.1.1 "><p id="p044717491856"><a name="p044717491856"></a><a name="p044717491856"></a><span>backupName</span></p>
+<tr id="row14471249950"><td class="cellrowborder" valign="top" headers="mcps1.2.4.1.1 "><p id="p044717491856"><a name="p044717491856"></a><a name="p044717491856"></a>backupName</p>
 </td>
-<td class="cellrowborder" valign="top" headers="mcps1.2.4.1.2 "><p id="p844710491853"><a name="p844710491853"></a><a name="p844710491853"></a><span>备份名称</span></p>
+<td class="cellrowborder" valign="top" headers="mcps1.2.4.1.2 "><p id="p844710491853"><a name="p844710491853"></a><a name="p844710491853"></a>备份名称</p>
 </td>
 </tr>
 <tr id="row0668534616"><td class="cellrowborder" rowspan="2" valign="top" width="33.33666633336667%" headers="mcps1.2.4.1.1 "><p id="p146691031168"><a name="p146691031168"></a><a name="p146691031168"></a><a href="https://support.huaweicloud.com/usermanual-functiongraph/functiongraph_01_0215.html" target="_blank" rel="noopener noreferrer">函数工作流服务（FunctionGraph）</a></p>
 </td>
-<td class="cellrowborder" valign="top" width="33.28667133286672%" headers="mcps1.2.4.1.2 "><p id="p166694316619"><a name="p166694316619"></a><a name="p166694316619"></a><span>function</span></p>
+<td class="cellrowborder" valign="top" width="33.28667133286672%" headers="mcps1.2.4.1.2 "><p id="p166694316619"><a name="p166694316619"></a><a name="p166694316619"></a>function</p>
 </td>
 <td class="cellrowborder" valign="top" width="33.37666233376663%" headers="mcps1.2.4.1.3 "><p id="p96691535617"><a name="p96691535617"></a><a name="p96691535617"></a>函数</p>
 </td>
 </tr>
-<tr id="row1648517532610"><td class="cellrowborder" valign="top" headers="mcps1.2.4.1.1 "><p id="p19485153166"><a name="p19485153166"></a><a name="p19485153166"></a><span>trigger</span></p>
+<tr id="row1648517532610"><td class="cellrowborder" valign="top" headers="mcps1.2.4.1.1 "><p id="p19485153166"><a name="p19485153166"></a><a name="p19485153166"></a>trigger</p>
 </td>
 <td class="cellrowborder" valign="top" headers="mcps1.2.4.1.2 "><p id="p1048585317615"><a name="p1048585317615"></a><a name="p1048585317615"></a>触发器</p>
 </td>
 </tr>
 <tr id="row1143013552068"><td class="cellrowborder" rowspan="2" valign="top" width="33.33666633336667%" headers="mcps1.2.4.1.1 "><p id="p15241232271"><a name="p15241232271"></a><a name="p15241232271"></a><a href="https://support.huaweicloud.com/usermanual-rabbitmq/CreatingCustomPolicy.html" target="_blank" rel="noopener noreferrer">分布式消息服务（DMS）</a></p>
 </td>
-<td class="cellrowborder" valign="top" width="33.28667133286672%" headers="mcps1.2.4.1.2 "><p id="p114301855265"><a name="p114301855265"></a><a name="p114301855265"></a><span>rabbitmq</span></p>
+<td class="cellrowborder" valign="top" width="33.28667133286672%" headers="mcps1.2.4.1.2 "><p id="p114301855265"><a name="p114301855265"></a><a name="p114301855265"></a>rabbitmq</p>
 </td>
 <td class="cellrowborder" valign="top" width="33.37666233376663%" headers="mcps1.2.4.1.3 "><p id="p843018550610"><a name="p843018550610"></a><a name="p843018550610"></a>RabbitMQ实例</p>
 </td>
 </tr>
-<tr id="row14241532371"><td class="cellrowborder" valign="top" headers="mcps1.2.4.1.1 "><p id="p6241133210712"><a name="p6241133210712"></a><a name="p6241133210712"></a><span>kafka</span></p>
+<tr id="row14241532371"><td class="cellrowborder" valign="top" headers="mcps1.2.4.1.1 "><p id="p6241133210712"><a name="p6241133210712"></a><a name="p6241133210712"></a>kafka</p>
 </td>
 <td class="cellrowborder" valign="top" headers="mcps1.2.4.1.2 "><p id="p1324118321076"><a name="p1324118321076"></a><a name="p1324118321076"></a>Kafka实例</p>
 </td>
 </tr>
-<tr id="row52100348713"><td class="cellrowborder" valign="top" width="33.33666633336667%" headers="mcps1.2.4.1.1 "><p id="p1210133410712"><a name="p1210133410712"></a><a name="p1210133410712"></a><a href="https://support.huaweicloud.com/usermanual-iothub/iot_01_0061.html" target="_blank" rel="noopener noreferrer">设备接入（IoTDA）</a></p>
+<tr id="row52100348713"><td class="cellrowborder" valign="top" width="33.33666633336667%" headers="mcps1.2.4.1.1 "><p id="p1210133410712"><a name="p1210133410712"></a><a name="p1210133410712"></a>设备接入（IoTDA）</p>
 </td>
-<td class="cellrowborder" valign="top" width="33.28667133286672%" headers="mcps1.2.4.1.2 "><p id="p121016345720"><a name="p121016345720"></a><a name="p121016345720"></a><span>app</span></p>
+<td class="cellrowborder" valign="top" width="33.28667133286672%" headers="mcps1.2.4.1.2 "><p id="p121016345720"><a name="p121016345720"></a><a name="p121016345720"></a>app</p>
 </td>
 <td class="cellrowborder" valign="top" width="33.37666233376663%" headers="mcps1.2.4.1.3 "><p id="p62101734376"><a name="p62101734376"></a><a name="p62101734376"></a>资源空间ID</p>
 </td>
 </tr>
 <tr id="row179601171488"><td class="cellrowborder" valign="top" width="33.33666633336667%" headers="mcps1.2.4.1.1 "><p id="p096191717816"><a name="p096191717816"></a><a name="p096191717816"></a><a href="https://support.huaweicloud.com/usermanual-dew/dew_01_0161.html" target="_blank" rel="noopener noreferrer">数据加密服务（KMS）</a></p>
 </td>
-<td class="cellrowborder" valign="top" width="33.28667133286672%" headers="mcps1.2.4.1.2 "><p id="p179611917685"><a name="p179611917685"></a><a name="p179611917685"></a><span>KeyId</span></p>
+<td class="cellrowborder" valign="top" width="33.28667133286672%" headers="mcps1.2.4.1.2 "><p id="p179611917685"><a name="p179611917685"></a><a name="p179611917685"></a>KeyId</p>
 </td>
 <td class="cellrowborder" valign="top" width="33.37666233376663%" headers="mcps1.2.4.1.3 "><p id="p1896191715816"><a name="p1896191715816"></a><a name="p1896191715816"></a>密钥ID</p>
 </td>
 </tr>
 <tr id="row106522571981"><td class="cellrowborder" rowspan="2" valign="top" width="33.33666633336667%" headers="mcps1.2.4.1.1 "><p id="p96528571815"><a name="p96528571815"></a><a name="p96528571815"></a>自动驾驶云服务（Octopus）</p>
 </td>
-<td class="cellrowborder" valign="top" width="33.28667133286672%" headers="mcps1.2.4.1.2 "><p id="p5652105710814"><a name="p5652105710814"></a><a name="p5652105710814"></a><span>dataset</span></p>
+<td class="cellrowborder" valign="top" width="33.28667133286672%" headers="mcps1.2.4.1.2 "><p id="p5652105710814"><a name="p5652105710814"></a><a name="p5652105710814"></a>dataset</p>
 </td>
-<td class="cellrowborder" valign="top" width="33.37666233376663%" headers="mcps1.2.4.1.3 "><p id="p16652125720817"><a name="p16652125720817"></a><a name="p16652125720817"></a><span>数据集</span></p>
+<td class="cellrowborder" valign="top" width="33.37666233376663%" headers="mcps1.2.4.1.3 "><p id="p16652125720817"><a name="p16652125720817"></a><a name="p16652125720817"></a>数据集</p>
 </td>
 </tr>
 <tr id="row165205281594"><td class="cellrowborder" valign="top" headers="mcps1.2.4.1.1 "><p id="p552018283918"><a name="p552018283918"></a><a name="p552018283918"></a>replay</p>
 </td>
-<td class="cellrowborder" valign="top" headers="mcps1.2.4.1.2 "><p id="p95205281592"><a name="p95205281592"></a><a name="p95205281592"></a><span>视频回放</span></p>
+<td class="cellrowborder" valign="top" headers="mcps1.2.4.1.2 "><p id="p95205281592"><a name="p95205281592"></a><a name="p95205281592"></a>视频回放</p>
 </td>
 </tr>
 <tr id="row13376313919"><td class="cellrowborder" valign="top" width="33.33666633336667%" headers="mcps1.2.4.1.1 "><p id="p7677204114313"><a name="p7677204114313"></a><a name="p7677204114313"></a><a href="https://support.huaweicloud.com/mgtg-dws/dws_01_0148.html" target="_blank" rel="noopener noreferrer">数据仓库服务(DWS)</a></p>
 </td>
-<td class="cellrowborder" valign="top" width="33.28667133286672%" headers="mcps1.2.4.1.2 "><p id="p1433710317914"><a name="p1433710317914"></a><a name="p1433710317914"></a><span>cluster</span></p>
+<td class="cellrowborder" valign="top" width="33.28667133286672%" headers="mcps1.2.4.1.2 "><p id="p1433710317914"><a name="p1433710317914"></a><a name="p1433710317914"></a>cluster</p>
 </td>
-<td class="cellrowborder" valign="top" width="33.37666233376663%" headers="mcps1.2.4.1.3 "><p id="p133376311992"><a name="p133376311992"></a><a name="p133376311992"></a><span>集群</span></p>
+<td class="cellrowborder" valign="top" width="33.37666233376663%" headers="mcps1.2.4.1.3 "><p id="p133376311992"><a name="p133376311992"></a><a name="p133376311992"></a>集群</p>
 </td>
 </tr>
 </tbody>
