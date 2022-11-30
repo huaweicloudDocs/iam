@@ -33,7 +33,7 @@ POST /v3/OS-FEDERATION/identity\_providers/\{idp\_id\}/protocols/\{protocol\_id\
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.3 "><p id="p34511350165011"><a name="p34511350165011"></a><a name="p34511350165011"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="p19451350135011"><a name="p19451350135011"></a><a name="p19451350135011"></a>身份提供商id。</p>
+<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0224276985_p134475234912"><a name="zh-cn_topic_0224276985_p134475234912"></a><a name="zh-cn_topic_0224276985_p134475234912"></a>身份提供商名称。</p>
 </td>
 </tr>
 <tr id="row3451185019501"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.1 "><p id="p84511350145010"><a name="p84511350145010"></a><a name="p84511350145010"></a>protocol_id</p>

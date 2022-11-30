@@ -35,7 +35,7 @@ PUT /v3.0/OS-MFA/mfa-devices/unbind
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.3 "><p id="p16521417164411"><a name="p16521417164411"></a><a name="p16521417164411"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="40%" headers="mcps1.2.5.1.4 "><a name="ul1948614712363"></a><a name="ul1948614712363"></a><ul id="ul1948614712363"><li><a href="https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html" target="_blank" rel="noopener noreferrer">管理员</a>为IAM用户解绑MFA设备：拥有Security Administrator权限的token。</li><li>IAM用户为自己解绑MFA设备：请求Body中user_id所对应IAM用户的token（无需特殊权限）。</li></ul>
+<td class="cellrowborder" valign="top" width="40%" headers="mcps1.2.5.1.4 "><a name="ul1948614712363"></a><a name="ul1948614712363"></a><ul id="ul1948614712363"><li><u id="u39439113483"><a name="u39439113483"></a><a name="u39439113483"></a><a href="https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html" target="_blank" rel="noopener noreferrer">管理员</a></u><u id="u199449111482"><a name="u199449111482"></a><a name="u199449111482"></a></u>为IAM用户解绑MFA设备：请参见<a href="授权项.md">授权项</a>。</li><li>IAM用户为自己解绑MFA设备：请求Body中user_id所对应IAM用户的token（无需特殊权限）。</li></ul>
 </td>
 </tr>
 </tbody>
@@ -69,7 +69,7 @@ PUT /v3.0/OS-MFA/mfa-devices/unbind
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.3 "><p id="p252717174419"><a name="p252717174419"></a><a name="p252717174419"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="40%" headers="mcps1.2.5.1.4 "><a name="ul1426718376208"></a><a name="ul1426718376208"></a><ul id="ul1426718376208"><li><a href="https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html" target="_blank" rel="noopener noreferrer">管理员</a>为IAM用户解绑MFA设备：填写6位任意验证码，不做校验。</li><li>IAM用户为自己解绑MFA设备：填写虚拟MFA验证码。</li></ul>
+<td class="cellrowborder" valign="top" width="40%" headers="mcps1.2.5.1.4 "><a name="ul1426718376208"></a><a name="ul1426718376208"></a><ul id="ul1426718376208"><li><u id="u9346113623012"><a name="u9346113623012"></a><a name="u9346113623012"></a><a href="https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html" target="_blank" rel="noopener noreferrer">管理员</a></u><u id="u034693613014"><a name="u034693613014"></a><a name="u034693613014"></a></u>为IAM用户解绑MFA设备：填写6位任意验证码，不做校验。</li><li>IAM用户为自己解绑MFA设备：填写虚拟MFA验证码。</li></ul>
 </td>
 </tr>
 <tr id="row95211714447"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.1 "><p id="p952171794415"><a name="p952171794415"></a><a name="p952171794415"></a>serial_number</p>

@@ -2,7 +2,7 @@
 
 ## 功能介绍<a name="section4392175003714"></a>
 
-该接口可以用于[管理员](https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html)查询指定IAM用户的登录保护状态信息，或IAM用户查询自己的登录保护状态信息。
+该接口可以用于<u>[管理员](https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html)</u><u></u>查询指定IAM用户的登录保护状态信息，或IAM用户查询自己的登录保护状态信息。
 
 该接口可以使用全局区域的Endpoint和其他区域的Endpoint调用。IAM的Endpoint请参见：[地区和终端节点](https://developer.huaweicloud.com/endpoint?IAM)。
 
@@ -48,9 +48,9 @@ GET /v3.0/OS-USER/users/\{user\_id\}/login-protect
 </th>
 <th class="cellrowborder" valign="top" width="10%" id="mcps1.2.5.1.2"><p id="p651917504372"><a name="p651917504372"></a><a name="p651917504372"></a>是否必选</p>
 </th>
-<th class="cellrowborder" valign="top" width="20%" id="mcps1.2.5.1.3"><p id="p7519165010379"><a name="p7519165010379"></a><a name="p7519165010379"></a>参数类型</p>
+<th class="cellrowborder" valign="top" width="19.98%" id="mcps1.2.5.1.3"><p id="p7519165010379"><a name="p7519165010379"></a><a name="p7519165010379"></a>参数类型</p>
 </th>
-<th class="cellrowborder" valign="top" width="50%" id="mcps1.2.5.1.4"><p id="p1519205093717"><a name="p1519205093717"></a><a name="p1519205093717"></a>描述</p>
+<th class="cellrowborder" valign="top" width="50.019999999999996%" id="mcps1.2.5.1.4"><p id="p1519205093717"><a name="p1519205093717"></a><a name="p1519205093717"></a>描述</p>
 </th>
 </tr>
 </thead>
@@ -58,10 +58,10 @@ GET /v3.0/OS-USER/users/\{user\_id\}/login-protect
 </td>
 <td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.2 "><p id="p751965015378"><a name="p751965015378"></a><a name="p751965015378"></a>是</p>
 </td>
-<td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.3 "><p id="p205191550193718"><a name="p205191550193718"></a><a name="p205191550193718"></a>String</p>
+<td class="cellrowborder" valign="top" width="19.98%" headers="mcps1.2.5.1.3 "><p id="p205191550193718"><a name="p205191550193718"></a><a name="p205191550193718"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="p175199501375"><a name="p175199501375"></a><a name="p175199501375"></a><a href="https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html" target="_blank" rel="noopener noreferrer">管理员</a>查询IAM用户的登录保护状态信息：拥有Security Administrator权限的token。</p>
-<p id="p45191050193713"><a name="p45191050193713"></a><a name="p45191050193713"></a>IAM用户查询自己的登录保护状态信息：URL中user_id所对应IAM用户的token（无需特殊权限）。</p>
+<td class="cellrowborder" valign="top" width="50.019999999999996%" headers="mcps1.2.5.1.4 "><p id="p15290161835512"><a name="p15290161835512"></a><a name="p15290161835512"></a><u id="u54331933756"><a name="u54331933756"></a><a name="u54331933756"></a><a href="https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html" target="_blank" rel="noopener noreferrer">管理员</a></u><u id="u1433533657"><a name="u1433533657"></a><a name="u1433533657"></a></u>查询IAM用户的登录保护状态信息：请参见<a href="授权项.md">授权项</a>。</p>
+<p id="p175199501375"><a name="p175199501375"></a><a name="p175199501375"></a>IAM用户查询自己的登录保护状态信息：URL中user_id所对应IAM用户的token（无需特殊权限）。</p>
 </td>
 </tr>
 </tbody>

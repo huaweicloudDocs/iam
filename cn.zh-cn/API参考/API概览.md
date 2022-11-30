@@ -594,42 +594,22 @@
 </th>
 </tr>
 </thead>
-<tbody><tr id="row12282727194913"><td class="cellrowborder" valign="top" width="29.92%" headers="mcps1.1.3.1.1 "><p id="p76401767505"><a name="p76401767505"></a><a name="p76401767505"></a><a href="查询企业项目关联的用户组.md">查询企业项目关联的用户组</a></p>
+<tbody><tr id="row8282192764915"><td class="cellrowborder" valign="top" width="29.92%" headers="mcps1.1.3.1.1 "><p id="p11915915502"><a name="p11915915502"></a><a name="p11915915502"></a><a href="查询企业项目关联的用户组.md">查询企业项目关联的用户组</a></p>
 </td>
 <td class="cellrowborder" valign="top" width="70.08%" headers="mcps1.1.3.1.2 "><p id="p6640266502"><a name="p6640266502"></a><a name="p6640266502"></a>该接口用于查询指定ID的企业项目所关联的用户组。</p>
 </td>
 </tr>
-<tr id="row8282192764915"><td class="cellrowborder" valign="top" width="29.92%" headers="mcps1.1.3.1.1 "><p id="p11915915502"><a name="p11915915502"></a><a name="p11915915502"></a><a href="查询企业项目关联的用户组（推荐）.md">查询企业项目关联的用户组（推荐）</a></p>
+<tr id="row1628202716497"><td class="cellrowborder" valign="top" width="29.92%" headers="mcps1.1.3.1.1 "><p id="p4447202425018"><a name="p4447202425018"></a><a name="p4447202425018"></a><a href="查询企业项目关联用户组的权限.md">查询企业项目关联用户组的权限</a></p>
 </td>
-<td class="cellrowborder" valign="top" width="70.08%" headers="mcps1.1.3.1.2 "><p id="p101918910503"><a name="p101918910503"></a><a name="p101918910503"></a>该接口可用于查询企业项目直接关联的用户组。</p>
-</td>
-</tr>
-<tr id="row1792165418497"><td class="cellrowborder" valign="top" width="29.92%" headers="mcps1.1.3.1.1 "><p id="p13640196195013"><a name="p13640196195013"></a><a name="p13640196195013"></a><a href="查询企业项目已关联用户组的权限.md">查询企业项目已关联用户组的权限</a></p>
-</td>
-<td class="cellrowborder" valign="top" width="70.08%" headers="mcps1.1.3.1.2 "><p id="p1164019605017"><a name="p1164019605017"></a><a name="p1164019605017"></a>该接口用于查询指定ID的企业项目所关联用户组的权限，适用于待查询的企业项目已关联了用户组。</p>
+<td class="cellrowborder" valign="top" width="70.08%" headers="mcps1.1.3.1.2 "><p id="p17446924155016"><a name="p17446924155016"></a><a name="p17446924155016"></a>该接口用于查询指定ID的企业项目所关联用户组的权限，适用于待查询的企业项目已关联了用户组。</p>
 </td>
 </tr>
-<tr id="row1628202716497"><td class="cellrowborder" valign="top" width="29.92%" headers="mcps1.1.3.1.1 "><p id="p4447202425018"><a name="p4447202425018"></a><a name="p4447202425018"></a><a href="查询企业项目关联用户组的权限（推荐）.md">查询企业项目关联用户组的权限（推荐）</a></p>
+<tr id="row770618564124"><td class="cellrowborder" valign="top" width="29.92%" headers="mcps1.1.3.1.1 "><p id="p1670785631213"><a name="p1670785631213"></a><a name="p1670785631213"></a><a href="基于用户组为企业项目授权.md">基于用户组为企业项目授权</a></p>
 </td>
-<td class="cellrowborder" valign="top" width="70.08%" headers="mcps1.1.3.1.2 "><p id="p17446924155016"><a name="p17446924155016"></a><a name="p17446924155016"></a>该接口可用于查询企业项目直接关联用户组的权限。</p>
-</td>
-</tr>
-<tr id="row17929165711491"><td class="cellrowborder" valign="top" width="29.92%" headers="mcps1.1.3.1.1 "><p id="p46401469506"><a name="p46401469506"></a><a name="p46401469506"></a><a href="基于用户组为企业项目授权.md">基于用户组为企业项目授权</a></p>
-</td>
-<td class="cellrowborder" valign="top" width="70.08%" headers="mcps1.1.3.1.2 "><p id="p1464020617501"><a name="p1464020617501"></a><a name="p1464020617501"></a>该接口用于给指定ID的企业项目授权，建立企业项目、用户组和权限的绑定关系。</p>
+<td class="cellrowborder" valign="top" width="70.08%" headers="mcps1.1.3.1.2 "><p id="p17426108131519"><a name="p17426108131519"></a><a name="p17426108131519"></a>该接口用于给指定ID的企业项目授权，建立企业项目、用户组和权限的绑定关系。</p>
 </td>
 </tr>
-<tr id="row770618564124"><td class="cellrowborder" valign="top" width="29.92%" headers="mcps1.1.3.1.1 "><p id="p1670785631213"><a name="p1670785631213"></a><a name="p1670785631213"></a><a href="基于用户组为企业项目授权（推荐）.md">基于用户组为企业项目授权（推荐）</a></p>
-</td>
-<td class="cellrowborder" valign="top" width="70.08%" headers="mcps1.1.3.1.2 "><p id="p135711741145213"><a name="p135711741145213"></a><a name="p135711741145213"></a>该接口用于给指定ID的企业项目授权，建立企业项目、用户组和权限的绑定关系。</p>
-</td>
-</tr>
-<tr id="row1629114120134"><td class="cellrowborder" valign="top" width="29.92%" headers="mcps1.1.3.1.1 "><p id="p1764014617508"><a name="p1764014617508"></a><a name="p1764014617508"></a><a href="删除企业项目关联的用户组权限.md">删除企业项目关联的用户组权限</a></p>
-</td>
-<td class="cellrowborder" valign="top" width="70.08%" headers="mcps1.1.3.1.2 "><p id="p3640666500"><a name="p3640666500"></a><a name="p3640666500"></a>该接口提供删除某个企业项目关联的用户组权限。</p>
-</td>
-</tr>
-<tr id="row292920573491"><td class="cellrowborder" valign="top" width="29.92%" headers="mcps1.1.3.1.1 "><p id="p1149702813508"><a name="p1149702813508"></a><a name="p1149702813508"></a><a href="删除企业项目关联用户组的权限（推荐）.md">删除企业项目关联用户组的权限（推荐）</a></p>
+<tr id="row292920573491"><td class="cellrowborder" valign="top" width="29.92%" headers="mcps1.1.3.1.1 "><p id="p1149702813508"><a name="p1149702813508"></a><a name="p1149702813508"></a><a href="删除企业项目关联用户组的权限.md">删除企业项目关联用户组的权限</a></p>
 </td>
 <td class="cellrowborder" valign="top" width="70.08%" headers="mcps1.1.3.1.2 "><p id="p7747356489"><a name="p7747356489"></a><a name="p7747356489"></a>该接口提供删除某个企业项目关联的用户组权限。</p>
 </td>
@@ -639,9 +619,29 @@
 <td class="cellrowborder" valign="top" width="70.08%" headers="mcps1.1.3.1.2 "><p id="p1192945754913"><a name="p1192945754913"></a><a name="p1192945754913"></a>该接口可用于查询用户组所关联的企业项目。</p>
 </td>
 </tr>
-<tr id="row44001833115013"><td class="cellrowborder" valign="top" width="29.92%" headers="mcps1.1.3.1.1 "><p id="p18400193325018"><a name="p18400193325018"></a><a name="p18400193325018"></a><a href="查询用户关联的企业项目.md">查询用户关联的企业项目</a></p>
+<tr id="row44001833115013"><td class="cellrowborder" valign="top" width="29.92%" headers="mcps1.1.3.1.1 "><p id="p18400193325018"><a name="p18400193325018"></a><a name="p18400193325018"></a><a href="查询用户直接关联的企业项目.md">查询用户直接关联的企业项目</a></p>
 </td>
 <td class="cellrowborder" valign="top" width="70.08%" headers="mcps1.1.3.1.2 "><p id="p440023315508"><a name="p440023315508"></a><a name="p440023315508"></a>该接口可用于查询用户所关联的企业项目。</p>
+</td>
+</tr>
+<tr id="row45708163501"><td class="cellrowborder" valign="top" width="29.92%" headers="mcps1.1.3.1.1 "><p id="p14570141675018"><a name="p14570141675018"></a><a name="p14570141675018"></a><a href="查询企业项目直接关联用户.md">查询企业项目直接关联用户</a></p>
+</td>
+<td class="cellrowborder" valign="top" width="70.08%" headers="mcps1.1.3.1.2 "><p id="p1357011614503"><a name="p1357011614503"></a><a name="p1357011614503"></a>该接口可用于查询企业项目直接关联用户。</p>
+</td>
+</tr>
+<tr id="row557021610501"><td class="cellrowborder" valign="top" width="29.92%" headers="mcps1.1.3.1.1 "><p id="p757041616509"><a name="p757041616509"></a><a name="p757041616509"></a><a href="查询企业项目直接关联用户的权限.md">查询企业项目直接关联用户的权限</a></p>
+</td>
+<td class="cellrowborder" valign="top" width="70.08%" headers="mcps1.1.3.1.2 "><p id="p357041615018"><a name="p357041615018"></a><a name="p357041615018"></a>该接口可用于查询企业项目直接关联用户的权限。</p>
+</td>
+</tr>
+<tr id="row1957031619506"><td class="cellrowborder" valign="top" width="29.92%" headers="mcps1.1.3.1.1 "><p id="p1857014166508"><a name="p1857014166508"></a><a name="p1857014166508"></a><a href="基于用户为企业项目授权.md">基于用户为企业项目授权</a></p>
+</td>
+<td class="cellrowborder" valign="top" width="70.08%" headers="mcps1.1.3.1.2 "><p id="p19570171695014"><a name="p19570171695014"></a><a name="p19570171695014"></a>该接口可用于基于用户为企业项目授权。</p>
+</td>
+</tr>
+<tr id="row1557011615015"><td class="cellrowborder" valign="top" width="29.92%" headers="mcps1.1.3.1.1 "><p id="p3570151612505"><a name="p3570151612505"></a><a name="p3570151612505"></a><a href="删除企业项目直接关联用户的权限.md">删除企业项目直接关联用户的权限</a></p>
+</td>
+<td class="cellrowborder" valign="top" width="70.08%" headers="mcps1.1.3.1.2 "><p id="p10570121613508"><a name="p10570121613508"></a><a name="p10570121613508"></a>该接口可用于删除企业项目直接关联用户的权限，</p>
 </td>
 </tr>
 </tbody>
@@ -738,7 +738,7 @@
 <td class="cellrowborder" valign="top" width="69.14%" headers="mcps1.1.3.1.2 "><p id="p1618101625917"><a name="p1618101625917"></a><a name="p1618101625917"></a>该接口可以用于查询身份提供商详情。</p>
 </td>
 </tr>
-<tr id="row718115161597"><td class="cellrowborder" valign="top" width="30.86%" headers="mcps1.1.3.1.1 "><p id="p16181101611599"><a name="p16181101611599"></a><a name="p16181101611599"></a><a href="创建SAML身份提供商.md">创建SAML身份提供商</a></p>
+<tr id="row718115161597"><td class="cellrowborder" valign="top" width="30.86%" headers="mcps1.1.3.1.1 "><p id="p16181101611599"><a name="p16181101611599"></a><a name="p16181101611599"></a><a href="创建身份提供商.md">创建身份提供商</a></p>
 </td>
 <td class="cellrowborder" valign="top" width="69.14%" headers="mcps1.1.3.1.2 "><p id="p718151612593"><a name="p718151612593"></a><a name="p718151612593"></a>该接口可以用于<a href="https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html" target="_blank" rel="noopener noreferrer">管理员</a>注册身份提供商。</p>
 </td>
@@ -818,11 +818,6 @@
 <td class="cellrowborder" valign="top" width="69.14%" headers="mcps1.1.3.1.2 "><p id="p5702425154"><a name="p5702425154"></a><a name="p5702425154"></a>该接口可以用于<a href="https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html" target="_blank" rel="noopener noreferrer">管理员</a>导入Metadata文件。</p>
 </td>
 </tr>
-<tr id="row77054281520"><td class="cellrowborder" valign="top" width="30.86%" headers="mcps1.1.3.1.1 "><p id="p1370174211152"><a name="p1370174211152"></a><a name="p1370174211152"></a><a href="获取联邦认证unscoped-token(SP-initiated).md">获取联邦认证unscoped token(SP initiated)</a></p>
-</td>
-<td class="cellrowborder" valign="top" width="69.14%" headers="mcps1.1.3.1.2 "><p id="p107010428153"><a name="p107010428153"></a><a name="p107010428153"></a>该接口可以用于通过SP initiated的联邦认证方式获取unscoped token。</p>
-</td>
-</tr>
 <tr id="row147094212151"><td class="cellrowborder" valign="top" width="30.86%" headers="mcps1.1.3.1.1 "><p id="p370174241517"><a name="p370174241517"></a><a name="p370174241517"></a><a href="获取联邦认证unscoped-token(IdP-initiated).md">获取联邦认证unscoped token(IdP initiated)</a></p>
 </td>
 <td class="cellrowborder" valign="top" width="69.14%" headers="mcps1.1.3.1.2 "><p id="p1970142171519"><a name="p1970142171519"></a><a name="p1970142171519"></a>该接口可以用于通过IdP initiated的联邦认证方式获取unscoped token。</p>
@@ -833,14 +828,19 @@
 <td class="cellrowborder" valign="top" width="69.14%" headers="mcps1.1.3.1.2 "><p id="p10701642151519"><a name="p10701642151519"></a><a name="p10701642151519"></a>该接口可以用于通过联邦认证方式获取scoped token。</p>
 </td>
 </tr>
+<tr id="row107010426154"><td class="cellrowborder" valign="top" width="30.86%" headers="mcps1.1.3.1.1 "><p id="p1970134271519"><a name="p1970134271519"></a><a name="p1970134271519"></a><a href="获取联邦认证token(OpenID-Connect-ID-token方式).md">获取联邦认证token(OpenID Connect ID token方式)</a></p>
+</td>
+<td class="cellrowborder" valign="top" width="69.14%" headers="mcps1.1.3.1.2 "><p id="p1770124213154"><a name="p1770124213154"></a><a name="p1770124213154"></a>该接口可以用于通过OpenID Connect ID token方式获取联邦认证token。</p>
+</td>
+</tr>
+<tr id="row1770134241517"><td class="cellrowborder" valign="top" width="30.86%" headers="mcps1.1.3.1.1 "><p id="p77010423152"><a name="p77010423152"></a><a name="p77010423152"></a><a href="获取联邦认证unscoped-token(OpenID-Connect-ID-token方式).md">获取联邦认证unscoped token(OpenID Connect ID token方式)</a></p>
+</td>
+<td class="cellrowborder" valign="top" width="69.14%" headers="mcps1.1.3.1.2 "><p id="p157019426153"><a name="p157019426153"></a><a name="p157019426153"></a>该接口可以用于通过OpenID Connect ID token方式获取联邦认证unscoped token。</p>
+</td>
+</tr>
 <tr id="row1707151017179"><td class="cellrowborder" valign="top" width="30.86%" headers="mcps1.1.3.1.1 "><p id="p17707151091710"><a name="p17707151091710"></a><a name="p17707151091710"></a><a href="查询联邦用户可以访问的帐号列表.md">查询联邦用户可以访问的帐号列表</a></p>
 </td>
 <td class="cellrowborder" valign="top" width="69.14%" headers="mcps1.1.3.1.2 "><p id="p167071110171718"><a name="p167071110171718"></a><a name="p167071110171718"></a>该接口用于查询联邦用户可以访问的帐号列表。</p>
-</td>
-</tr>
-<tr id="row1170719103177"><td class="cellrowborder" valign="top" width="30.86%" headers="mcps1.1.3.1.1 "><p id="p16707121012178"><a name="p16707121012178"></a><a name="p16707121012178"></a><a href="查询联邦用户可以访问的项目列表.md">查询联邦用户可以访问的项目列表</a></p>
-</td>
-<td class="cellrowborder" valign="top" width="69.14%" headers="mcps1.1.3.1.2 "><p id="p19707161031715"><a name="p19707161031715"></a><a name="p19707161031715"></a>该接口可以用于查询联邦用户可以访问的项目列表。</p>
 </td>
 </tr>
 </tbody>

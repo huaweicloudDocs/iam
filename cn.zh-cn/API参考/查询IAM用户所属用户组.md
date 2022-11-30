@@ -2,7 +2,7 @@
 
 ## 功能介绍<a name="zh-cn_topic_0221482366_section17731164910257"></a>
 
-该接口可以用于[管理员](https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html)查询IAM用户所属用户组，或IAM用户查询自己所属用户组。
+该接口可以用于<u>[管理员](https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html)</u><u></u>查询IAM用户所属用户组，或IAM用户查询自己所属用户组。
 
 该接口可以使用全局区域的Endpoint和其他区域的Endpoint调用。IAM的Endpoint请参见：[地区和终端节点](https://developer.huaweicloud.com/endpoint?IAM)。
 
@@ -69,7 +69,7 @@ GET /v3/users/\{user\_id\}/groups
 </td>
 <td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0221482366_p674913491259"><a name="zh-cn_topic_0221482366_p674913491259"></a><a name="zh-cn_topic_0221482366_p674913491259"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482366_p1974915495256"><a name="zh-cn_topic_0221482366_p1974915495256"></a><a name="zh-cn_topic_0221482366_p1974915495256"></a><a href="https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html" target="_blank" rel="noopener noreferrer">管理员</a>查询IAM用户所属用户组：拥有Security Administrator权限的token。</p>
+<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482366_p1974915495256"><a name="zh-cn_topic_0221482366_p1974915495256"></a><a name="zh-cn_topic_0221482366_p1974915495256"></a><u id="u1096571824915"><a name="u1096571824915"></a><a name="u1096571824915"></a><a href="https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html" target="_blank" rel="noopener noreferrer">管理员</a></u><u id="u396531813494"><a name="u396531813494"></a><a name="u396531813494"></a></u>查询IAM用户所属用户组：请参见<a href="授权项.md">授权项</a>。</p>
 <p id="zh-cn_topic_0221482366_p1575064992513"><a name="zh-cn_topic_0221482366_p1575064992513"></a><a name="zh-cn_topic_0221482366_p1575064992513"></a>IAM用户查询自己所属用户组：URL中user_id所对应IAM用户的token（无需特殊权限）。</p>
 </td>
 </tr>
@@ -154,7 +154,7 @@ GET /v3/users/\{user\_id\}/groups
 </tr>
 <tr id="zh-cn_topic_0221482366_row1761174918254"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.1 "><p id="zh-cn_topic_0221482366_p13772134972515"><a name="zh-cn_topic_0221482366_p13772134972515"></a><a name="zh-cn_topic_0221482366_p13772134972515"></a>create_time</p>
 </td>
-<td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0221482366_p117721949182513"><a name="zh-cn_topic_0221482366_p117721949182513"></a><a name="zh-cn_topic_0221482366_p117721949182513"></a><span>Long</span></p>
+<td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0221482366_p117721949182513"><a name="zh-cn_topic_0221482366_p117721949182513"></a><a name="zh-cn_topic_0221482366_p117721949182513"></a>Long</p>
 </td>
 <td class="cellrowborder" valign="top" width="60%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0221482366_p377316494257"><a name="zh-cn_topic_0221482366_p377316494257"></a><a name="zh-cn_topic_0221482366_p377316494257"></a>用户组创建时间。</p>
 </td>
@@ -255,7 +255,7 @@ GET https://iam.myhuaweicloud.com/v3/users/{user_id}/groups
             "links": {
                 "next": null,
                 "previous": null,
-                "self": "https://iam.huaweicloud.com/v3/groups/07609e7eb200250a3f7dc003cb..."
+                "self": "https://iam.myhuaweicloud.com/v3/groups/07609e7eb200250a3f7dc003cb..."
             },
             "id": "07609e7eb200250a3f7dc003cb7..."
         }
@@ -263,7 +263,7 @@ GET https://iam.myhuaweicloud.com/v3/users/{user_id}/groups
     "links": {
         "next": null,
         "previous": null,
-        "self": "https://iam.huaweicloud.com/v3/users/076837351e80251c1f0fc003afe43.../groups"
+        "self": "https://iam.myhuaweicloud.com/v3/users/076837351e80251c1f0fc003afe43.../groups"
     }
 }
 ```

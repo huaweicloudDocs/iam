@@ -119,7 +119,7 @@ POST /v3.0/OS-AUTH/id-token/tokens
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.3 "><p id="p355115568430"><a name="p355115568430"></a><a name="p355115568430"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="p95511567434"><a name="p95511567434"></a><a name="p95511567434"></a>id_token的值。</p>
+<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="p95511567434"><a name="p95511567434"></a><a name="p95511567434"></a>id_token的值。id_token由企业IdP构建，携带联邦用户身份信息。请参考企业IdP文档了解获取id_token的方法。</p>
 </td>
 </tr>
 </tbody>
@@ -657,7 +657,10 @@ POST /v3.0/OS-AUTH/id-token/tokens
 -   获取联邦认证project scoped token
 
     ```
-    POST /v3.0/OS-AUTH/id-token/tokens 
+    POST /v3.0/OS-AUTH/id-token/tokens
+    ```
+
+    ```
       
      { 
        "auth" : { 
@@ -667,7 +670,7 @@ POST /v3.0/OS-AUTH/id-token/tokens
          "scope" : { 
            "project" : { 
              "id" : "46419baef4324...", 
-             "name" : "cn-north-4" 
+             "name" : "cn-north-1" 
            } 
          } 
        } 
@@ -677,7 +680,11 @@ POST /v3.0/OS-AUTH/id-token/tokens
 -   获取联邦认证domain scoped token
 
     ```
-    POST /v3.0/OS-AUTH/id-token/tokens 
+    POST /v3.0/OS-AUTH/id-token/tokens
+    ```
+
+    ```
+     
       
      { 
        "auth" : { 
@@ -697,7 +704,11 @@ POST /v3.0/OS-AUTH/id-token/tokens
 -   获取unscoped token
 
     ```
-    POST /v3.0/OS-AUTH/id-token/tokens 
+    POST /v3.0/OS-AUTH/id-token/tokens
+    ```
+
+    ```
+     
       
      { 
        "auth" : { 

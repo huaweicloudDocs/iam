@@ -2,7 +2,7 @@
 
 ## 功能介绍<a name="zh-cn_topic_0221482415_section18572114919254"></a>
 
-该接口可以用于[管理员](https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html)查询IAM用户详情，或IAM用户查询自己的用户详情。
+该接口可以用于<u>[管理员](https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html)</u><u></u>查询IAM用户详情，或IAM用户查询自己的用户详情。
 
 该接口可以使用全局区域的Endpoint和其他区域的Endpoint调用。IAM的Endpoint请参见：[地区和终端节点](https://developer.huaweicloud.com/endpoint?IAM)。
 
@@ -73,7 +73,7 @@ GET /v3/users/\{user\_id\}
 </td>
 <td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0221482415_p1858894972519"><a name="zh-cn_topic_0221482415_p1858894972519"></a><a name="zh-cn_topic_0221482415_p1858894972519"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482415_p115881549192514"><a name="zh-cn_topic_0221482415_p115881549192514"></a><a name="zh-cn_topic_0221482415_p115881549192514"></a><a href="https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html" target="_blank" rel="noopener noreferrer">管理员</a>查询IAM用户详情：拥有Security Administrator权限的token。</p>
+<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482415_p115881549192514"><a name="zh-cn_topic_0221482415_p115881549192514"></a><a name="zh-cn_topic_0221482415_p115881549192514"></a><u id="u143282483484"><a name="u143282483484"></a><a name="u143282483484"></a><a href="https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html" target="_blank" rel="noopener noreferrer">管理员</a></u><u id="u143281348104812"><a name="u143281348104812"></a><a name="u143281348104812"></a></u>查询IAM用户详情：请参见<a href="授权项.md">授权项</a>。</p>
 <p id="zh-cn_topic_0221482415_p13589449152511"><a name="zh-cn_topic_0221482415_p13589449152511"></a><a name="zh-cn_topic_0221482415_p13589449152511"></a>IAM用户查询自己的详情：URL中user_id所对应IAM用户的token（无需特殊权限）。</p>
 </td>
 </tr>
@@ -239,7 +239,7 @@ GET https://iam.myhuaweicloud.com/v3/users/{user_id}
         "links": {
             "next": null,
             "previous": null,
-            "self": "https://iam.huaweicloud.com/v3/users/07609fb9358010e21f7bc003751..."
+            "self": "https://iam.myhuaweicloud.com/v3/users/07609fb9358010e21f7bc003751..."
         },
         "id": "7116d09f88fa41908676fdd4b039...",
         "enabled": true

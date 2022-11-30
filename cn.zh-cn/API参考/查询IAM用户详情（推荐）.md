@@ -60,7 +60,7 @@ GET /v3.0/OS-USER/users/\{user\_id\}
 </td>
 <td class="cellrowborder" valign="top" width="19.82%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0221482423_p19252037202318"><a name="zh-cn_topic_0221482423_p19252037202318"></a><a name="zh-cn_topic_0221482423_p19252037202318"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482423_p2926123720236"><a name="zh-cn_topic_0221482423_p2926123720236"></a><a name="zh-cn_topic_0221482423_p2926123720236"></a><a href="https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html" target="_blank" rel="noopener noreferrer">管理员</a>查询IAM用户详情：拥有Security Administrator权限的token。</p>
+<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482423_p2926123720236"><a name="zh-cn_topic_0221482423_p2926123720236"></a><a name="zh-cn_topic_0221482423_p2926123720236"></a><u id="u39439113483"><a name="u39439113483"></a><a name="u39439113483"></a><a href="https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html" target="_blank" rel="noopener noreferrer">管理员</a></u><u id="u199449111482"><a name="u199449111482"></a><a name="u199449111482"></a></u>查询IAM用户详情：请参见<a href="授权项.md">授权项</a>。</p>
 <p id="zh-cn_topic_0221482423_p8926837102318"><a name="zh-cn_topic_0221482423_p8926837102318"></a><a name="zh-cn_topic_0221482423_p8926837102318"></a>IAM用户查询自己的详情：URL中user_id所对应IAM用户的token（无需特殊权限）。</p>
 </td>
 </tr>
@@ -203,7 +203,7 @@ GET /v3.0/OS-USER/users/\{user\_id\}
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.2 "><p id="p10508543173117"><a name="p10508543173117"></a><a name="p10508543173117"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="60%" headers="mcps1.2.4.1.3 "><p id="p150810436316"><a name="p150810436316"></a><a name="p150810436316"></a>IAM用户密码强度。结果为low/middle/high/none，分别表示密码强度低/中/高/无。</p>
+<td class="cellrowborder" valign="top" width="60%" headers="mcps1.2.4.1.3 "><p id="p150810436316"><a name="p150810436316"></a><a name="p150810436316"></a>IAM用户密码强度。结果为Low/Medium/Strong/None，分别表示密码强度低/中/高/无。</p>
 </td>
 </tr>
 <tr id="row17871132282219"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.1 "><p id="p780093110228"><a name="p780093110228"></a><a name="p780093110228"></a>is_domain_owner</p>
@@ -280,9 +280,6 @@ GET https://iam.myhuaweicloud.com/v3.0/OS-USER/users/{user_id}
 
 ```
 {
-  "id" : "",
-  "xuser_type" : "",
-  "email" : "",
   "user" : {
     "pwd_strength" : "Strong",
     "create_time" : "2020-07-08 02:19:03.0",
@@ -300,11 +297,11 @@ GET https://iam.myhuaweicloud.com/v3.0/OS-USER/users/{user_id}
     "links" : {
       "next" : null,
       "previous" : null,
-      "self" : "https://iam.huaweicloud.com/v3.0/OS-USER/users/093f75808b8089ba1f6dc000c7cac..."
+      "self" : "https://iam.myhuaweicloud.com/v3.0/OS-USER/users/093f75808b8089ba1f6dc000c7cac..."
     },
     "id" : "093f75808b8089ba1f6dc000c7cac...",
     "xuser_type" : "",
-    "email" : ""，
+    "email" : "",
     "description" : "aaa" 
   }
 }

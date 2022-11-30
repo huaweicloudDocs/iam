@@ -2,9 +2,13 @@
 
 ## 功能介绍<a name="section8465839203813"></a>
 
-该接口可以用于[管理员](https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html)  修改OpenID Connect身份提供商配置。
+该接口可以用于<u>[管理员](https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html)</u><u></u>  修改OpenID Connect身份提供商配置。
 
 该接口可以使用全局区域的Endpoint和其他区域的Endpoint调用。IAM的Endpoint请参见：[地区和终端节点](https://developer.huaweicloud.com/endpoint?IAM)。
+
+## 调试<a name="section2485151619141"></a>
+
+您可以在[API Explorer](https://apiexplorer.developer.huaweicloud.com/apiexplorer/doc?product=IAM&api=UpdateOpenIdConnectConfig)中调试该接口。
 
 ## URI<a name="section54671939193820"></a>
 
@@ -66,7 +70,7 @@ PUT /v3.0/OS-FEDERATION/identity-providers/\{idp\_id\}/openid-connect-config
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.3 "><p id="p8617103916385"><a name="p8617103916385"></a><a name="p8617103916385"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="p12617113918388"><a name="p12617113918388"></a><a name="p12617113918388"></a>拥有Security Administrator权限的token。</p>
+<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="p12617113918388"><a name="p12617113918388"></a><a name="p12617113918388"></a>请参见<a href="授权项.md">授权项</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -198,6 +202,19 @@ PUT /v3.0/OS-FEDERATION/identity-providers/\{idp\_id\}/openid-connect-config
 </td>
 <td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="p414552115316"><a name="p414552115316"></a><a name="p414552115316"></a>OpenID Connect身份提供商ID Token签名的公钥。</p>
 <p id="p14891429613"><a name="p14891429613"></a><a name="p14891429613"></a>最小长度：10。最大长度：30000。</p>
+<p id="p1217527174916"><a name="p1217527174916"></a><a name="p1217527174916"></a>格式示例：</p>
+<pre class="screen" id="screen152894895118"><a name="screen152894895118"></a><a name="screen152894895118"></a>{
+  "keys":[
+     {
+        "kid":"d05ef20c4512645vv1..." ,
+        "n":"cws_cnjiwsbvweolwn_-vnl...",
+        "e":"AQAB",
+        "kty":"RSA",
+        "use":"sig",
+        "alg":"RS256"
+      }
+   ]
+} </pre>
 </td>
 </tr>
 </tbody>

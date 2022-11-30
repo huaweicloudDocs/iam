@@ -526,7 +526,7 @@ X-Subject-Token:MIIatAYJKoZIhvcNAQcCoIIapTCCGqECAQExDTALB...
                         "interface": "public",
                         "region": "*",
                         "region_id": "*",
-                        "url": "https://bss.myhuaweicloud.com/v1.0"
+                        "url": "https://bss.sample.domain.com/v1.0"
                     }
                 ],
                 "id": "c6db69fabbd549908adcb861c7e47ca4",

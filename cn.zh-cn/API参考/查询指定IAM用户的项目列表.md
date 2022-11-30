@@ -69,7 +69,7 @@ GET /v3/users/\{user\_id\}/projects
 </td>
 <td class="cellrowborder" valign="top" width="12.9%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0221482392_p1580410206405"><a name="zh-cn_topic_0221482392_p1580410206405"></a><a name="zh-cn_topic_0221482392_p1580410206405"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="60.160000000000004%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482392_p58051820144016"><a name="zh-cn_topic_0221482392_p58051820144016"></a><a name="zh-cn_topic_0221482392_p58051820144016"></a><a href="https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html" target="_blank" rel="noopener noreferrer">管理员</a>查询指定IAM用户的项目列表：拥有Security Administrator权限的token。</p>
+<td class="cellrowborder" valign="top" width="60.160000000000004%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482392_p58051820144016"><a name="zh-cn_topic_0221482392_p58051820144016"></a><a name="zh-cn_topic_0221482392_p58051820144016"></a><a href="https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html" target="_blank" rel="noopener noreferrer">管理员</a>查询指定IAM用户的项目列表：请参见<a href="授权项.md">授权项</a>。</p>
 <p id="zh-cn_topic_0221482392_p7805122011406"><a name="zh-cn_topic_0221482392_p7805122011406"></a><a name="zh-cn_topic_0221482392_p7805122011406"></a>IAM用户查询自身项目列表：URL中user_id所对应IAM用户的token（无需特殊权限）。</p>
 </td>
 </tr>
@@ -192,7 +192,7 @@ GET /v3/users/\{user\_id\}/projects
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0221482392_p18832020194015"><a name="zh-cn_topic_0221482392_p18832020194015"></a><a name="zh-cn_topic_0221482392_p18832020194015"></a>String</p>
 </td>
 <td class="cellrowborder" valign="top" width="60%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0221482392_p983313209400"><a name="zh-cn_topic_0221482392_p983313209400"></a><a name="zh-cn_topic_0221482392_p983313209400"></a>如果查询自己创建的项目，则此处返回所属区域的项目ID。</p>
-<p id="zh-cn_topic_0221482392_p28334204403"><a name="zh-cn_topic_0221482392_p28334204403"></a><a name="zh-cn_topic_0221482392_p28334204403"></a>如果查询的是系统内置项目，如cn-north-4，则此处返回帐号ID。</p>
+<p id="zh-cn_topic_0221482392_p28334204403"><a name="zh-cn_topic_0221482392_p28334204403"></a><a name="zh-cn_topic_0221482392_p28334204403"></a>如果查询的是系统内置项目，如<span id="text203341648160"><a name="text203341648160"></a><a name="text203341648160"></a>cn-north-1</span>，则此处返回帐号ID。</p>
 </td>
 </tr>
 <tr id="zh-cn_topic_0221482392_row198212020154012"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.1 "><p id="zh-cn_topic_0221482392_p7834182012407"><a name="zh-cn_topic_0221482392_p7834182012407"></a><a name="zh-cn_topic_0221482392_p7834182012407"></a>domain_id</p>
@@ -266,12 +266,12 @@ GET https://iam.myhuaweicloud.com/v3/users/{user_id}/projects
             "domain_id": "d78cbac186b744899480f25bd02...",
             "is_domain": false,
             "parent_id": "d78cbac186b744899480f25bd0...",
-            "name": "cn-southwest-2",
+            "name": "cn-north-1",
             "description": "",
             "links": {
                 "next": null,
                 "previous": null,
-                "self": "https://iam.huaweicloud.com/v3/projects/06f1cd8ea9800ff02f26c003d93..."
+                "self": "https://iam.myhuaweicloud.com/v3/projects/06f1cd8ea9800ff02f26c003d93..."
             },
             "id": "06f1cd8ea9800ff02f26c003d93...",
             "enabled": true
@@ -285,7 +285,7 @@ GET https://iam.myhuaweicloud.com/v3/users/{user_id}/projects
             "links": {
                 "next": null,
                 "previous": null,
-                "self": "https://iam.huaweicloud.com/v3/projects/babf0605d15b4f9fbcacc6a8ee0f8d84"
+                "self": "https://iam.myhuaweicloud.com/v3/projects/babf0605d15b4f9fbcacc6a8ee0f8d84"
             },
             "id": "babf0605d15b4f9fbcacc6a8ee0f8d84",
             "enabled": true
@@ -294,7 +294,7 @@ GET https://iam.myhuaweicloud.com/v3/users/{user_id}/projects
     "links": {
         "next": null,
         "previous": null,
-        "self": "https://iam.huaweicloud.com/v3/users/7116d09f88fa41908676fdd4b039e95b/projects"
+        "self": "https://iam.myhuaweicloud.com/v3/users/7116d09f88fa41908676fdd4b039e95b/projects"
     }
 }
 ```

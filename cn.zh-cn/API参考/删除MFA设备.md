@@ -2,7 +2,7 @@
 
 ## 功能介绍<a name="section13815375453"></a>
 
-该接口可以用于[管理员](https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html)删除自己的MFA设备。
+该接口可以用于<u>[管理员](https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html)</u><u></u>删除自己的MFA设备。
 
 该接口可以使用全局区域的Endpoint和其他区域的Endpoint调用。IAM的Endpoint请参见：[地区和终端节点](https://developer.huaweicloud.com/endpoint?IAM)。
 
@@ -63,7 +63,7 @@ DELETE /v3.0/OS-MFA/virtual-mfa-devices
 </th>
 </tr>
 </thead>
-<tbody><tr id="row1257837154516"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.1 "><p id="p10579376455"><a name="p10579376455"></a><a name="p10579376455"></a>X-auth-Token</p>
+<tbody><tr id="row1257837154516"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.1 "><p id="p10579376455"><a name="p10579376455"></a><a name="p10579376455"></a>X-Auth-Token</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p2571137184511"><a name="p2571137184511"></a><a name="p2571137184511"></a>是</p>
 </td>

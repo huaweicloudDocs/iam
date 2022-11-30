@@ -51,7 +51,7 @@ API Explorer在线调试请参见：[查询用户组列表](https://apiexplorer.
                  "domain_id":"d78cbac186b744899480f25bd022....",
                  "id":"5b050baea9db472c88cbae67e8d6....",
                  "links":{
-                     "self":"https://iam.huaweicloud.com/v3/groups/5b050baea9db472c88cbae67e8d6...."
+                     "self":"https://iam.myhuaweicloud.com/v3/groups/5b050baea9db472c88cbae67e8d6...."
                  },
                  "name":"IAMGroupA"
              },
@@ -61,13 +61,13 @@ API Explorer在线调试请参见：[查询用户组列表](https://apiexplorer.
                  "domain_id":"d78cbac186b744899480f25bd022....",
                  "id":"07609e7eb200250a3f7dc003cb7a....",
                  "links":{
-                     "self":"https://iam.huaweicloud.com/v3/groups/07609e7eb200250a3f7dc003cb7a...."
+                     "self":"https://iam.myhuaweicloud.com/v3/groups/07609e7eb200250a3f7dc003cb7a...."
                  },
                  "name":"IAMGroupB"
              }
          ],
          "links":{
-             "self":"https://iam.huaweicloud.com/v3/groups"
+             "self":"https://iam.myhuaweicloud.com/v3/groups"
          }
      }
     ```
@@ -207,7 +207,7 @@ API Explorer在线调试请参见：[管理员查询用户组所包含的IAM用�
     ```
     {
          "links":{
-             "self":"https://iam.huaweicloud.com/v3/groups/07609e7eb200250a3f7dc003cb7a..../users"
+             "self":"https://iam.myhuaweicloud.com/v3/groups/07609e7eb200250a3f7dc003cb7a..../users"
          },
          "users":[
              {
@@ -217,7 +217,7 @@ API Explorer在线调试请参见：[管理员查询用户组所包含的IAM用�
                  "id":"07609fb9358010e21f7bc003751c....",
                  "last_project_id":"065a7c66da0010992ff7c0031e5a....",
                  "links":{
-                     "self":"https://iam.huaweicloud.com/v3/users/07609fb9358010e21f7bc003751c...."
+                     "self":"https://iam.myhuaweicloud.com/v3/users/07609fb9358010e21f7bc003751c...."
                  },
                  "name":"IAMUserA",
                  "pwd_status":true
@@ -229,7 +229,7 @@ API Explorer在线调试请参见：[管理员查询用户组所包含的IAM用�
                  "id":"076837351e80251c1f0fc003afe4....",
                  "last_project_id":"065a7c66da0010992ff7c0031e5a....",
                  "links":{
-                     "self":"https://iam.huaweicloud.com/v3/users/076837351e80251c1f0fc003afe4...."
+                     "self":"https://iam.myhuaweicloud.com/v3/users/076837351e80251c1f0fc003afe4...."
                  },
                  "name":"IAMUserB",
                  "pwd_status":true

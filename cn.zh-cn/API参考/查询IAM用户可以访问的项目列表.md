@@ -152,7 +152,7 @@ GET /v3/auth/projects
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0221482440_p1659725011386"><a name="zh-cn_topic_0221482440_p1659725011386"></a><a name="zh-cn_topic_0221482440_p1659725011386"></a>String</p>
 </td>
 <td class="cellrowborder" valign="top" width="60%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0221482440_p18598750173813"><a name="zh-cn_topic_0221482440_p18598750173813"></a><a name="zh-cn_topic_0221482440_p18598750173813"></a>如果查询自己创建的项目，则此处返回所属区域的项目ID。</p>
-<p id="zh-cn_topic_0221482440_p3599165016388"><a name="zh-cn_topic_0221482440_p3599165016388"></a><a name="zh-cn_topic_0221482440_p3599165016388"></a>如果查询的是系统内置项目，如cn-north-4，则此处返回帐号ID。</p>
+<p id="zh-cn_topic_0221482440_p3599165016388"><a name="zh-cn_topic_0221482440_p3599165016388"></a><a name="zh-cn_topic_0221482440_p3599165016388"></a>如果查询的是系统内置项目，如<span id="text47161928131619"><a name="text47161928131619"></a><a name="text47161928131619"></a>cn-north-1</span>，则此处返回帐号ID。</p>
 </td>
 </tr>
 <tr id="zh-cn_topic_0221482440_row19584205003811"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.1 "><p id="zh-cn_topic_0221482440_p3599550183813"><a name="zh-cn_topic_0221482440_p3599550183813"></a><a name="zh-cn_topic_0221482440_p3599550183813"></a>domain_id</p>
@@ -224,7 +224,7 @@ GET https://iam.myhuaweicloud.com/v3/auth/projects
             "domain_id": "d78cbac186b744899480f25bd02...",
             "is_domain": false,
             "parent_id": "d78cbac186b744899480f25bd022...",
-            "name": "cn-north-4",
+            "name": "cn-north-1",
             "description": "",
             "links": {
                 "self": "https://iam.myhuaweicloud.com/v3/projects/065a7c66da0010992ff7c0031e5a5e7d"

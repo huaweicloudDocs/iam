@@ -2,7 +2,7 @@
 
 ## 功能介绍<a name="zh-cn_topic_0221482439_section13155155913310"></a>
 
-该接口可以用于[管理员](https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html)修改IAM用户信息 。
+该接口可以用于<u>[管理员](https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html)</u><u></u>修改IAM用户信息 。
 
 该接口可以使用全局区域的Endpoint和其他区域的Endpoint调用。IAM的Endpoint请参见：[地区和终端节点](https://developer.huaweicloud.com/endpoint?IAM)。
 
@@ -119,7 +119,7 @@ PUT /v3.0/OS-USER/users/\{user\_id\}
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0221482439_p1242085914313"><a name="zh-cn_topic_0221482439_p1242085914313"></a><a name="zh-cn_topic_0221482439_p1242085914313"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482439_p13425125913111"><a name="zh-cn_topic_0221482439_p13425125913111"></a><a name="zh-cn_topic_0221482439_p13425125913111"></a>新IAM用户名，长度1~32之间，只能包含如下字符：大小写字母、空格、数字或特殊字符（-_.）且不能以数字开头。</p>
+<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482439_p13425125913111"><a name="zh-cn_topic_0221482439_p13425125913111"></a><a name="zh-cn_topic_0221482439_p13425125913111"></a>新IAM用户名，长度1~32之间，只能包含如下字符：大小写字母、空格、数字或特殊字符（-_.）且不能以数字或空格开头。</p>
 </td>
 </tr>
 <tr id="zh-cn_topic_0221482439_row83841859133112"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.1 "><p id="zh-cn_topic_0221482439_p12429959113118"><a name="zh-cn_topic_0221482439_p12429959113118"></a><a name="zh-cn_topic_0221482439_p12429959113118"></a>password</p>
@@ -299,7 +299,7 @@ PUT /v3.0/OS-USER/users/\{user\_id\}
 </td>
 <td class="cellrowborder" valign="top" width="19.97%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0221482439_p13863105903117"><a name="zh-cn_topic_0221482439_p13863105903117"></a><a name="zh-cn_topic_0221482439_p13863105903117"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="59.98%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0221482439_p9868155983117"><a name="zh-cn_topic_0221482439_p9868155983117"></a><a name="zh-cn_topic_0221482439_p9868155983117"></a>IAM用户新用户名，长度5~32之间，首位不能为数字，特殊字符只能包含下划线“_”、中划线“-”和空格。</p>
+<td class="cellrowborder" valign="top" width="59.98%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0221482439_p9868155983117"><a name="zh-cn_topic_0221482439_p9868155983117"></a><a name="zh-cn_topic_0221482439_p9868155983117"></a>IAM用户新用户名，长度1~32之间，只能包含如下字符：大小写字母、空格、数字或特殊字符（-_.）且不能以数字或空格开头。</p>
 </td>
 </tr>
 <tr id="zh-cn_topic_0221482439_row77481559103112"><td class="cellrowborder" valign="top" width="20.05%" headers="mcps1.2.4.1.1 "><p id="zh-cn_topic_0221482439_p1487410591318"><a name="zh-cn_topic_0221482439_p1487410591318"></a><a name="zh-cn_topic_0221482439_p1487410591318"></a>phone</p>
@@ -425,7 +425,7 @@ PUT https://iam.myhuaweicloud.com/v3.0/OS-USER/users/{user_id}
         "phone": "12345678910",
         "name": "IAMUser",
         "links": {
-            "self": "https://iam.huaweicloud.com/3.0/OS-USER/users/076934ff9f0010cd1f0bc003..."
+            "self": "https://iam.myhuaweicloud.com/3.0/OS-USER/users/076934ff9f0010cd1f0bc003..."
         },
         "id": "076934ff9f0010cd1f0bc0031019...",
         "xuser_type": "",

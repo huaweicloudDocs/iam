@@ -2,7 +2,7 @@
 
 ## 功能介绍<a name="section1846415183370"></a>
 
-该接口可以用于[管理员](https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html)查询指定IAM用户的MFA绑定信息，或IAM用户查询自己的MFA绑定信息。
+该接口可以用于<u>[管理员](https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html)</u><u></u>查询指定IAM用户的MFA绑定信息，或IAM用户查询自己的MFA绑定信息。
 
 该接口可以使用全局区域的Endpoint和其他区域的Endpoint调用。IAM的Endpoint请参见：[地区和终端节点](https://developer.huaweicloud.com/endpoint?IAM)。
 
@@ -60,7 +60,7 @@ GET /v3.0/OS-MFA/users/\{user\_id\}/virtual-mfa-device
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.3 "><p id="p254041814370"><a name="p254041814370"></a><a name="p254041814370"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="p12540171819379"><a name="p12540171819379"></a><a name="p12540171819379"></a><a href="https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html" target="_blank" rel="noopener noreferrer">管理员</a>查询IAM用户的MFA绑定信息：拥有Security Administrator权限的token。</p>
+<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="p12540171819379"><a name="p12540171819379"></a><a name="p12540171819379"></a><u id="u151261313452"><a name="u151261313452"></a><a name="u151261313452"></a><a href="https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html" target="_blank" rel="noopener noreferrer">管理员</a></u><u id="u131261113553"><a name="u131261113553"></a><a name="u131261113553"></a></u>查询IAM用户的MFA绑定信息：请参见<a href="授权项.md">授权项</a>。</p>
 <p id="p165401188378"><a name="p165401188378"></a><a name="p165401188378"></a>IAM用户查询自己的MFA绑定信息：URL中user_id所对应IAM用户的token（无需特殊权限）。</p>
 </td>
 </tr>

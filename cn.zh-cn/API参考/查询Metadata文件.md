@@ -2,7 +2,7 @@
 
 ## 功能介绍<a name="zh-cn_topic_0224276918_section745715165013"></a>
 
-该接口可以用于[管理员](https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html)查询身份提供商导入到IAM中的Metadata文件。
+该接口可以用于<u>[管理员](https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html)</u><u></u>查询身份提供商导入到IAM中的Metadata文件。
 
 该接口可以使用全局区域的Endpoint和其他区域的Endpoint调用。IAM的Endpoint请参见：[地区和终端节点](https://developer.huaweicloud.com/endpoint?IAM)。
 
@@ -33,7 +33,7 @@ GET /v3-ext/OS-FEDERATION/identity\_providers/\{idp\_id\}/protocols/\{protocol\_
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0224276918_p3492157507"><a name="zh-cn_topic_0224276918_p3492157507"></a><a name="zh-cn_topic_0224276918_p3492157507"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0224276918_p149191510503"><a name="zh-cn_topic_0224276918_p149191510503"></a><a name="zh-cn_topic_0224276918_p149191510503"></a>身份提供商ID。</p>
+<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0224276985_p134475234912"><a name="zh-cn_topic_0224276985_p134475234912"></a><a name="zh-cn_topic_0224276985_p134475234912"></a>身份提供商名称。</p>
 </td>
 </tr>
 <tr id="zh-cn_topic_0224276918_row17471415165019"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.1 "><p id="zh-cn_topic_0224276918_p17507155502"><a name="zh-cn_topic_0224276918_p17507155502"></a><a name="zh-cn_topic_0224276918_p17507155502"></a>protocol_id</p>
@@ -78,7 +78,7 @@ GET /v3-ext/OS-FEDERATION/identity\_providers/\{idp\_id\}/protocols/\{protocol\_
 </td>
 <td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0224276918_p1254315125013"><a name="zh-cn_topic_0224276918_p1254315125013"></a><a name="zh-cn_topic_0224276918_p1254315125013"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0224276918_p1554515135013"><a name="zh-cn_topic_0224276918_p1554515135013"></a><a name="zh-cn_topic_0224276918_p1554515135013"></a>拥有Security Administrator权限的token。</p>
+<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0224276918_p1554515135013"><a name="zh-cn_topic_0224276918_p1554515135013"></a><a name="zh-cn_topic_0224276918_p1554515135013"></a>请参见<a href="授权项.md">授权项</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -108,7 +108,7 @@ GET /v3-ext/OS-FEDERATION/identity\_providers/\{idp\_id\}/protocols/\{protocol\_
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0224276918_p185831514505"><a name="zh-cn_topic_0224276918_p185831514505"></a><a name="zh-cn_topic_0224276918_p185831514505"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="60%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0224276918_p0584155507"><a name="zh-cn_topic_0224276918_p0584155507"></a><a name="zh-cn_topic_0224276918_p0584155507"></a>身份提供商ID。</p>
+<td class="cellrowborder" valign="top" width="60%" headers="mcps1.2.4.1.3 "><p id="p1973311093314"><a name="p1973311093314"></a><a name="p1973311093314"></a>身份提供商名称。</p>
 </td>
 </tr>
 <tr id="zh-cn_topic_0224276918_row956415155019"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.1 "><p id="zh-cn_topic_0224276918_p858161545014"><a name="zh-cn_topic_0224276918_p858161545014"></a><a name="zh-cn_topic_0224276918_p858161545014"></a>entity_id</p>

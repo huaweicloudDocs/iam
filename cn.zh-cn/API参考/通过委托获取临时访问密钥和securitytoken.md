@@ -4,7 +4,7 @@
 
 该接口可以用于通过委托来获取临时访问密钥（临时AK/SK）和securitytoken。
 
-临时AK/SK和securitytoken是系统颁发给IAM用户的临时访问令牌，有效期可在15分钟至24小时范围内设置，过期后需要重新获取。临时AK/SK和securitytoken遵循权限最小化原则。鉴权时，临时AK/SK和securitytoken必须同时使用，请求头中需要添加“x-security-token”字段，使用方法详情请参考：[使用临时AK/SK做签名](https://support.huaweicloud.com/devg-apisign/api-sign-securetoken.html)  。
+临时AK/SK和securitytoken是系统颁发给IAM用户的临时访问令牌，有效期可在15分钟至24小时范围内设置，过期后需要重新获取。临时AK/SK和securitytoken遵循权限最小化原则。鉴权时，临时AK/SK和securitytoken必须同时使用，请求头中需要添加“x-security-token”字段，使用方法详情请参考：[使用临时AK/SK做签名](https://support.huaweicloud.com/devg-apisign/api-sign-securetoken.html)。
 
 该接口可以使用全局区域的Endpoint和其他区域的Endpoint调用。IAM的Endpoint请参见：[地区和终端节点](https://developer.huaweicloud.com/endpoint?IAM)。
 
@@ -228,7 +228,7 @@ POST /v3.0/OS-CREDENTIAL/securitytokens
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0221482378_p61788782018"><a name="zh-cn_topic_0221482378_p61788782018"></a><a name="zh-cn_topic_0221482378_p61788782018"></a>String</p>
 </td>
 <td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="p19296131131619"><a name="p19296131131619"></a><a name="p19296131131619"></a>委托方对应的企业用户名。</p>
-<p id="zh-cn_topic_0221482378_p1517814772015"><a name="zh-cn_topic_0221482378_p1517814772015"></a><a name="zh-cn_topic_0221482378_p1517814772015"></a>用户名需满足如下规则：长度5~32，只能包含大写字母、小写字母、数字（0-9）、特殊字符（"-"与"_"）且只能以字母开头。</p>
+<p id="zh-cn_topic_0221482378_p1517814772015"><a name="zh-cn_topic_0221482378_p1517814772015"></a><a name="zh-cn_topic_0221482378_p1517814772015"></a>用户名需满足如下规则：长度1~32之间，只能包含如下字符：大小写字母、空格、数字或特殊字符（-_.）且只能以字母开头。</p>
 </td>
 </tr>
 </tbody>
@@ -311,7 +311,7 @@ POST /v3.0/OS-CREDENTIAL/securitytokens
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0222037452_p174321501311"><a name="zh-cn_topic_0222037452_p174321501311"></a><a name="zh-cn_topic_0222037452_p174321501311"></a>Map&lt;String,Map&lt;String,Array&lt;String&gt;&gt;&gt;</p>
 </td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="p139313435469"><a name="p139313435469"></a><a name="p139313435469"></a>限制条件。不超过10个。了解更多相关参数，请参考：<a href="https://support.huaweicloud.com/usermanual-iam/iam_01_0605.html#section1" target="_blank" rel="noopener noreferrer">配置自定义策略</a></p>
+<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="p139313435469"><a name="p139313435469"></a><a name="p139313435469"></a>限制条件。不超过10个。了解更多相关参数，请参考：<a href="https://support.huaweicloud.com/usermanual-iam/iam_01_0605.html#section1" target="_blank" rel="noopener noreferrer">配置自定义策略</a>。</p>
 <div class="note" id="note122334794612"><a name="note122334794612"></a><a name="note122334794612"></a><span class="notetitle"> 说明： </span><div class="notebody"><p id="p1276712344919"><a name="p1276712344919"></a><a name="p1276712344919"></a>以请求示例中的Condition为例：条件键（obs:prefix）和字符串（public）需相等（StringEquals）。</p>
 <pre class="screen" id="screen18948143318464"><a name="screen18948143318464"></a><a name="screen18948143318464"></a> "Condition": {
               "StringEquals": {
@@ -330,7 +330,7 @@ POST /v3.0/OS-CREDENTIAL/securitytokens
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0222037452_p8433195017317"><a name="zh-cn_topic_0222037452_p8433195017317"></a><a name="zh-cn_topic_0222037452_p8433195017317"></a>Array of strings</p>
 </td>
 <td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0222037452_p343318501535"><a name="zh-cn_topic_0222037452_p343318501535"></a><a name="zh-cn_topic_0222037452_p343318501535"></a>资源。数组长度不超过10，每个字符串长度不超过128，规则如下：</p>
-<div class="note" id="zh-cn_topic_0222037452_note04331650133"><a name="zh-cn_topic_0222037452_note04331650133"></a><a name="zh-cn_topic_0222037452_note04331650133"></a><span class="notetitle"> 说明： </span><div class="notebody"><a name="ul323415619329"></a><a name="ul323415619329"></a><ul id="ul323415619329"><li><span>格式为“服务名:region:domainId:资源类型:资源路径”, 资源类型支持通配符号*，通配符号*表示所有。</span>如"obs:*:*:bucket:*": 表示所有的OBS桶。</li></ul>
+<div class="note" id="zh-cn_topic_0222037452_note04331650133"><a name="zh-cn_topic_0222037452_note04331650133"></a><a name="zh-cn_topic_0222037452_note04331650133"></a><span class="notetitle"> 说明： </span><div class="notebody"><a name="ul323415619329"></a><a name="ul323415619329"></a><ul id="ul323415619329"><li>格式为“服务名:region:domainId:资源类型:资源路径”, 资源类型支持通配符号*，通配符号*表示所有。如"obs:*:*:bucket:*": 表示所有的OBS桶。</li></ul>
 <a name="zh-cn_topic_0222037452_ul2433185011318"></a><a name="zh-cn_topic_0222037452_ul2433185011318"></a><ul id="zh-cn_topic_0222037452_ul2433185011318"><li>region字段为*或用户可访问的region。service必须存在且resource属于对应service。</li></ul>
 </div></div>
 </td>

@@ -2,11 +2,11 @@
 
 ## 功能介绍<a name="zh-cn_topic_0221482424_section1524018722012"></a>
 
-该接口可以用于通过token来获取临时AK/SK和securitytoken，获取token请参考：[获取IAM用户Token（使用密码）](获取IAM用户Token（使用密码）.md)。
-
-临时AK/SK和securitytoken是系统颁发给IAM用户的临时访问令牌，有效期可在15分钟至24小时范围内设置，过期后需要重新获取。临时AK/SK和securitytoken遵循权限最小化原则。鉴权时，临时AK/SK和securitytoken必须同时使用，请求头中需要添加“x-security-token”字段，使用方法详情请参考：[使用临时AK/SK做签名](https://support.huaweicloud.com/devg-apisign/api-sign-securetoken.html)   。
+该接口可以用于通过token来获取临时AK/SK和securitytoken。临时AK/SK和securitytoken是系统颁发给IAM用户的临时访问令牌，有效期可在15分钟至24小时范围内设置，过期后需要重新获取。临时AK/SK和securitytoken遵循权限最小化原则。
 
 该接口可以使用全局区域的Endpoint和其他区域的Endpoint调用。IAM的Endpoint请参见：[地区和终端节点](https://developer.huaweicloud.com/endpoint?IAM)。
+
+使用获取到的临时AK/SK和securitytoken作为凭证访问云服务，临时AK/SK和securitytoken两者必须**同时使用**，请求头中需要添加“x-security-token”字段，使用方法详情请参考：[使用临时AK/SK做签名](https://support.huaweicloud.com/devg-apisign/api-sign-securetoken.html)。
 
 ## 调试<a name="section155551711165315"></a>
 
@@ -46,7 +46,7 @@ POST /v3.0/OS-CREDENTIAL/securitytokens
 </td>
 <td class="cellrowborder" valign="top" width="20.26%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0221482424_p152430710202"><a name="zh-cn_topic_0221482424_p152430710202"></a><a name="zh-cn_topic_0221482424_p152430710202"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="50.06%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482424_p824310714204"><a name="zh-cn_topic_0221482424_p824310714204"></a><a name="zh-cn_topic_0221482424_p824310714204"></a>IAM用户token或联邦用户的token或委托token。该参数与请求体中的“auth.identity.token.id”填写其一即可，若都填写，优先校验X-Auth-Token。</p>
+<td class="cellrowborder" valign="top" width="50.06%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482424_p824310714204"><a name="zh-cn_topic_0221482424_p824310714204"></a><a name="zh-cn_topic_0221482424_p824310714204"></a>IAM用户token或联邦用户的token或委托token。</p>
 </td>
 </tr>
 </tbody>
@@ -130,7 +130,7 @@ POST /v3.0/OS-CREDENTIAL/securitytokens
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0221482424_p1925087192012"><a name="zh-cn_topic_0221482424_p1925087192012"></a><a name="zh-cn_topic_0221482424_p1925087192012"></a>Object</p>
 </td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482424_p62503716201"><a name="zh-cn_topic_0221482424_p62503716201"></a><a name="zh-cn_topic_0221482424_p62503716201"></a>IAM用户token或联邦用户的token或委托token，该参数中的“id”与请求头中的X-Auth-Token填写其一即可，若都填写，优先校验X-Auth-Token。</p>
+<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482424_p62503716201"><a name="zh-cn_topic_0221482424_p62503716201"></a><a name="zh-cn_topic_0221482424_p62503716201"></a>临时访问密钥和securitytoken的有效期。</p>
 </td>
 </tr>
 <tr id="row18244323173415"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.1 "><p id="p12452231340"><a name="p12452231340"></a><a name="p12452231340"></a><a href="#zh-cn_topic_0222037452_request_Rq113RolePolicy">policy</a></p>
@@ -224,7 +224,7 @@ POST /v3.0/OS-CREDENTIAL/securitytokens
 </td>
 <td class="cellrowborder" valign="top" width="19.97%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0222037452_p174321501311"><a name="zh-cn_topic_0222037452_p174321501311"></a><a name="zh-cn_topic_0222037452_p174321501311"></a>Map&lt;String,Map&lt;String,Array&lt;String&gt;&gt;&gt;</p>
 </td>
-<td class="cellrowborder" valign="top" width="50.029999999999994%" headers="mcps1.2.5.1.4 "><p id="p139313435469"><a name="p139313435469"></a><a name="p139313435469"></a>限制条件。不超过10个。了解更多相关参数，请参考：<a href="https://support.huaweicloud.com/usermanual-iam/iam_01_0605.html#section1" target="_blank" rel="noopener noreferrer">配置自定义策略</a></p>
+<td class="cellrowborder" valign="top" width="50.029999999999994%" headers="mcps1.2.5.1.4 "><p id="p139313435469"><a name="p139313435469"></a><a name="p139313435469"></a>限制条件。不超过10个。了解更多相关参数，请参考：<a href="https://support.huaweicloud.com/usermanual-iam/iam_01_0605.html#section1" target="_blank" rel="noopener noreferrer">配置自定义策略</a>。</p>
 <div class="note" id="note122334794612"><a name="note122334794612"></a><a name="note122334794612"></a><span class="notetitle"> 说明： </span><div class="notebody"><p id="p1276712344919"><a name="p1276712344919"></a><a name="p1276712344919"></a>以请求示例中的Condition为例：条件键（obs:prefix）和字符串（public）需相等（StringEquals）。</p>
 <pre class="screen" id="screen18948143318464"><a name="screen18948143318464"></a><a name="screen18948143318464"></a> "Condition": {
               "StringEquals": {
@@ -243,7 +243,7 @@ POST /v3.0/OS-CREDENTIAL/securitytokens
 <td class="cellrowborder" valign="top" width="19.97%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0222037452_p8433195017317"><a name="zh-cn_topic_0222037452_p8433195017317"></a><a name="zh-cn_topic_0222037452_p8433195017317"></a>Array of strings</p>
 </td>
 <td class="cellrowborder" valign="top" width="50.029999999999994%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0222037452_p343318501535"><a name="zh-cn_topic_0222037452_p343318501535"></a><a name="zh-cn_topic_0222037452_p343318501535"></a>资源。数组长度不超过10，每个字符串长度不超过128，规则如下：</p>
-<div class="note" id="zh-cn_topic_0222037452_note04331650133"><a name="zh-cn_topic_0222037452_note04331650133"></a><a name="zh-cn_topic_0222037452_note04331650133"></a><span class="notetitle"> 说明： </span><div class="notebody"><a name="zh-cn_topic_0222037452_ul2433185011318"></a><a name="zh-cn_topic_0222037452_ul2433185011318"></a><ul id="zh-cn_topic_0222037452_ul2433185011318"><li><span>格式为“服务名:region:domainId:资源类型:资源路径”, 资源类型支持通配符号*，通配符号*表示所有。</span>如"obs:*:*:bucket:*": 表示所有的OBS桶。</li><li>region字段为*或用户可访问的region。service必须存在且resource属于对应service。</li></ul>
+<div class="note" id="zh-cn_topic_0222037452_note04331650133"><a name="zh-cn_topic_0222037452_note04331650133"></a><a name="zh-cn_topic_0222037452_note04331650133"></a><span class="notetitle"> 说明： </span><div class="notebody"><a name="zh-cn_topic_0222037452_ul2433185011318"></a><a name="zh-cn_topic_0222037452_ul2433185011318"></a><ul id="zh-cn_topic_0222037452_ul2433185011318"><li>格式为“服务名:region:domainId:资源类型:资源路径”, 资源类型支持通配符号*，通配符号*表示所有。如"obs:*:*:bucket:*": 表示所有的OBS桶。</li><li>region字段为*或用户可访问的region。service必须存在且resource属于对应service。</li></ul>
 </div></div>
 </td>
 </tr>
@@ -263,22 +263,14 @@ POST /v3.0/OS-CREDENTIAL/securitytokens
 </th>
 </tr>
 </thead>
-<tbody><tr id="zh-cn_topic_0221482424_row18250378205"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.1 "><p id="zh-cn_topic_0221482424_p825117720202"><a name="zh-cn_topic_0221482424_p825117720202"></a><a name="zh-cn_topic_0221482424_p825117720202"></a>id</p>
-</td>
-<td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.2 "><p id="zh-cn_topic_0221482424_p3251117142016"><a name="zh-cn_topic_0221482424_p3251117142016"></a><a name="zh-cn_topic_0221482424_p3251117142016"></a>否</p>
-</td>
-<td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0221482424_p16251177172013"><a name="zh-cn_topic_0221482424_p16251177172013"></a><a name="zh-cn_topic_0221482424_p16251177172013"></a>String</p>
-</td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482424_p525247132015"><a name="zh-cn_topic_0221482424_p525247132015"></a><a name="zh-cn_topic_0221482424_p525247132015"></a>IAM用户token或联邦用户的token或委托token。与请求头中的X-Auth-Token填写其一即可，若都填写，优先校验X-Auth-Token。</p>
-</td>
-</tr>
-<tr id="zh-cn_topic_0221482424_row3250207142014"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.1 "><p id="zh-cn_topic_0221482424_p1225219712016"><a name="zh-cn_topic_0221482424_p1225219712016"></a><a name="zh-cn_topic_0221482424_p1225219712016"></a>duration_seconds</p>
+<tbody><tr id="zh-cn_topic_0221482424_row3250207142014"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.1 "><p id="zh-cn_topic_0221482424_p1225219712016"><a name="zh-cn_topic_0221482424_p1225219712016"></a><a name="zh-cn_topic_0221482424_p1225219712016"></a>duration_seconds</p>
 </td>
 <td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.2 "><p id="zh-cn_topic_0221482424_p9252127162014"><a name="zh-cn_topic_0221482424_p9252127162014"></a><a name="zh-cn_topic_0221482424_p9252127162014"></a>否</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0221482424_p162521273205"><a name="zh-cn_topic_0221482424_p162521273205"></a><a name="zh-cn_topic_0221482424_p162521273205"></a>Integer</p>
 </td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482424_p1125211792015"><a name="zh-cn_topic_0221482424_p1125211792015"></a><a name="zh-cn_topic_0221482424_p1125211792015"></a>AK/SK和securitytoken的有效期，时间单位为秒。取值范围：15分钟 ~ 24小时 ，默认为15分钟。</p>
+<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="p92151436103218"><a name="p92151436103218"></a><a name="p92151436103218"></a>临时访问密钥和securitytoken的有效期，时间单位为秒。</p>
+<p id="zh-cn_topic_0221482424_p1125211792015"><a name="zh-cn_topic_0221482424_p1125211792015"></a><a name="zh-cn_topic_0221482424_p1125211792015"></a>取值范围：15分钟 ~ 24小时 ，默认为15分钟。</p>
 </td>
 </tr>
 </tbody>
@@ -368,7 +360,6 @@ POST /v3.0/OS-CREDENTIAL/securitytokens
                     "token"
                 ],
                 "token": {
-                    "id": "MIIamwYJKoZIhvcNAQcCoIIajDCC...",
                     "duration_seconds": 900
                 }
             }
@@ -429,7 +420,6 @@ POST /v3.0/OS-CREDENTIAL/securitytokens
             ]
           },
           "token": {
-            "id": "MIIamwYJKoZIhvcNAQcCoIIajDCC...",
             "duration_seconds": 900
           }
         }

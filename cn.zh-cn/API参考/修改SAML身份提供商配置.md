@@ -2,7 +2,7 @@
 
 ## 功能介绍<a name="zh-cn_topic_0224276697_section1084513466455"></a>
 
-该接口可以用于[管理员](https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html)修改基于SAML协议的身份提供商配置。
+该接口可以用于<u>[管理员](https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html)</u><u></u>修改基于SAML协议的身份提供商配置。
 
 该接口可以使用全局区域的Endpoint和其他区域的Endpoint调用。IAM的Endpoint请参见：[地区和终端节点](https://developer.huaweicloud.com/endpoint?IAM)。
 
@@ -69,7 +69,7 @@ PATCH /v3/OS-FEDERATION/identity\_providers/\{id\}
 </td>
 <td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0224276697_p085564694515"><a name="zh-cn_topic_0224276697_p085564694515"></a><a name="zh-cn_topic_0224276697_p085564694515"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0224276697_p18855124634516"><a name="zh-cn_topic_0224276697_p18855124634516"></a><a name="zh-cn_topic_0224276697_p18855124634516"></a>拥有Security Administrator权限的token。</p>
+<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0224276697_p18855124634516"><a name="zh-cn_topic_0224276697_p18855124634516"></a><a name="zh-cn_topic_0224276697_p18855124634516"></a>请参见<a href="授权项.md">授权项</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -172,7 +172,7 @@ PATCH /v3/OS-FEDERATION/identity\_providers/\{id\}
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.2 "><p id="p19291165673711"><a name="p19291165673711"></a><a name="p19291165673711"></a>string</p>
 </td>
-<td class="cellrowborder" valign="top" width="60%" headers="mcps1.2.4.1.3 "><p id="p1285417504372"><a name="p1285417504372"></a><a name="p1285417504372"></a><span>身份提供商类型。当前支持virtual_user_sso和iam_user_sso两种。当返回为空字符串或者null时，默认为缺省类型virtual_user_sso类型。</span></p>
+<td class="cellrowborder" valign="top" width="60%" headers="mcps1.2.4.1.3 "><p id="p1285417504372"><a name="p1285417504372"></a><a name="p1285417504372"></a>身份提供商类型。</p>
 </td>
 </tr>
 <tr id="zh-cn_topic_0224276697_row1055113468457"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.1 "><p id="zh-cn_topic_0224276697_p14555154615457"><a name="zh-cn_topic_0224276697_p14555154615457"></a><a name="zh-cn_topic_0224276697_p14555154615457"></a>id</p>

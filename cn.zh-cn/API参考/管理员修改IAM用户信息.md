@@ -2,7 +2,7 @@
 
 ## 功能介绍<a name="zh-cn_topic_0221482404_section8411201017329"></a>
 
-该接口可以用于[管理员](https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html)修改IAM用户信息。
+该接口可以用于<u>[管理员](https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html)</u><u></u>修改IAM用户信息。
 
 该接口可以使用全局区域的Endpoint和其他区域的Endpoint调用。IAM的Endpoint请参见：[地区和终端节点](https://developer.huaweicloud.com/endpoint?IAM)。
 
@@ -73,7 +73,7 @@ PATCH /v3/users/\{user\_id\}
 </td>
 <td class="cellrowborder" valign="top" width="20.5%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0221482404_p194241710103213"><a name="zh-cn_topic_0221482404_p194241710103213"></a><a name="zh-cn_topic_0221482404_p194241710103213"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482404_p1425111014328"><a name="zh-cn_topic_0221482404_p1425111014328"></a><a name="zh-cn_topic_0221482404_p1425111014328"></a>拥有Security Administrator权限的token。</p>
+<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482404_p1425111014328"><a name="zh-cn_topic_0221482404_p1425111014328"></a><a name="zh-cn_topic_0221482404_p1425111014328"></a>请参见<a href="授权项.md">授权项</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -132,7 +132,7 @@ PATCH /v3/users/\{user\_id\}
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0221482404_p18437710133220"><a name="zh-cn_topic_0221482404_p18437710133220"></a><a name="zh-cn_topic_0221482404_p18437710133220"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482404_p1443811102326"><a name="zh-cn_topic_0221482404_p1443811102326"></a><a name="zh-cn_topic_0221482404_p1443811102326"></a>IAM用户新用户名，长度1~32之间，只能包含如下字符：大小写字母、空格、数字或特殊字符（-_.）且不能以数字开头。</p>
+<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482404_p1443811102326"><a name="zh-cn_topic_0221482404_p1443811102326"></a><a name="zh-cn_topic_0221482404_p1443811102326"></a>IAM用户新用户名，长度1~32之间，只能包含如下字符：大小写字母、空格、数字或特殊字符（-_.）且不能以数字或空格开头。</p>
 </td>
 </tr>
 <tr id="zh-cn_topic_0221482404_row17433111083218"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.1 "><p id="zh-cn_topic_0221482404_p24381510203210"><a name="zh-cn_topic_0221482404_p24381510203210"></a><a name="zh-cn_topic_0221482404_p24381510203210"></a>password</p>
@@ -163,7 +163,7 @@ PATCH /v3/users/\{user\_id\}
 <td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482404_p24432100321"><a name="zh-cn_topic_0221482404_p24432100321"></a><a name="zh-cn_topic_0221482404_p24432100321"></a>IAM用户新描述信息。</p>
 </td>
 </tr>
-<tr id="row14337826358"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.1 "><p id="p233719263519"><a name="p233719263519"></a><a name="p233719263519"></a><span>pwd_status</span></p>
+<tr id="row14337826358"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.1 "><p id="p233719263519"><a name="p233719263519"></a><a name="p233719263519"></a>pwd_status</p>
 </td>
 <td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.2 "><p id="p1533718263514"><a name="p1533718263514"></a><a name="p1533718263514"></a>否</p>
 </td>

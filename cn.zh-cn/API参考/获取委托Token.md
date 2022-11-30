@@ -137,7 +137,7 @@ POST /v3/auth/tokens
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0221482426_p10837122013"><a name="zh-cn_topic_0221482426_p10837122013"></a><a name="zh-cn_topic_0221482426_p10837122013"></a>Object</p>
 </td>
 <td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482426_p7810720203"><a name="zh-cn_topic_0221482426_p7810720203"></a><a name="zh-cn_topic_0221482426_p7810720203"></a>token的使用范围，需要填写委托方A的project或domain，填写其中任一即可。</p>
-<div class="note" id="zh-cn_topic_0221482426_note148571204"><a name="zh-cn_topic_0221482426_note148571204"></a><a name="zh-cn_topic_0221482426_note148571204"></a><span class="notetitle"> 说明： </span><div class="notebody"><a name="ul2401272293"></a><a name="ul2401272293"></a><ul id="ul2401272293"><li>如果您将scope设置为domain，该token适用于全局级服务；如果将scope设置为project，该token适用于项目级服务。</li><li>如果您将scope设置为project和domain，将以project参数为准，获取到项目级服务的token。</li></ul>
+<div class="note" id="zh-cn_topic_0221482426_note148571204"><a name="zh-cn_topic_0221482426_note148571204"></a><a name="zh-cn_topic_0221482426_note148571204"></a><span class="notetitle"> 说明： </span><div class="notebody"><a name="ul2401272293"></a><a name="ul2401272293"></a><ul id="ul2401272293"><li><strong id="b019019355911"><a name="b019019355911"></a><a name="b019019355911"></a>如果您将scope设置为domain，该Token适用于全局级服务；如果将scope设置为project，该Token适用于项目级服务。</strong></li><li><strong id="b1619683514911"><a name="b1619683514911"></a><a name="b1619683514911"></a>如果您将scope同时设置为project和domain，将以project参数为准，获取到项目级服务的Token。</strong></li><li><strong id="b517718469334"><a name="b517718469334"></a><a name="b517718469334"></a>如果您将scope置空，将获取到全局级服务的Token。建议您按需要填写Token使用范围。</strong></li></ul>
 </div></div>
 </td>
 </tr>
@@ -213,7 +213,7 @@ POST /v3/auth/tokens
 <p id="zh-cn_topic_0221482426_p1122715203"><a name="zh-cn_topic_0221482426_p1122715203"></a><a name="zh-cn_topic_0221482426_p1122715203"></a>您可以在IAM控制台委托列表中查看委托方A的帐号名称。</p>
 </td>
 </tr>
-<tr id="zh-cn_topic_0221482426_row151120752015"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.1 "><p id="p439491518128"><a name="p439491518128"></a><a name="p439491518128"></a><span>agency_name</span></p>
+<tr id="zh-cn_topic_0221482426_row151120752015"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.1 "><p id="p439491518128"><a name="p439491518128"></a><a name="p439491518128"></a>agency_name</p>
 </td>
 <td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.2 "><p id="zh-cn_topic_0221482426_p313207192017"><a name="zh-cn_topic_0221482426_p313207192017"></a><a name="zh-cn_topic_0221482426_p313207192017"></a>是</p>
 </td>

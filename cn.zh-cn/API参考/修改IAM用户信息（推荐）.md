@@ -148,7 +148,7 @@ PUT https://iam.myhuaweicloud.com/v3.0/OS-USER/users/{user_id}/info
 {
     "user": {
         "email": "IAMEmail@huawei.com",
-        "mobile": "0086-12345678910"
+        "mobile": "0086-123456789"
     }
 }
 ```

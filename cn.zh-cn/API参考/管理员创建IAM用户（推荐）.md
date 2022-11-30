@@ -2,7 +2,7 @@
 
 ## 功能介绍<a name="zh-cn_topic_0221482430_section1474415507251"></a>
 
-该接口可以用于[管理员](https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html)创建IAM用户。
+该接口可以用于<u>[管理员](https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html)</u><u></u>创建IAM用户。
 
 该接口可以使用全局区域的Endpoint和其他区域的Endpoint调用。IAM的Endpoint请参见：[地区和终端节点](https://developer.huaweicloud.com/endpoint?IAM)。
 
@@ -44,7 +44,7 @@ POST /v3.0/OS-USER/users
 </td>
 <td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0221482430_p5754155052519"><a name="zh-cn_topic_0221482430_p5754155052519"></a><a name="zh-cn_topic_0221482430_p5754155052519"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482430_p5755950142512"><a name="zh-cn_topic_0221482430_p5755950142512"></a><a name="zh-cn_topic_0221482430_p5755950142512"></a>拥有Security Administrator权限的token。</p>
+<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482430_p5755950142512"><a name="zh-cn_topic_0221482430_p5755950142512"></a><a name="zh-cn_topic_0221482430_p5755950142512"></a>请参见<a href="授权项.md">授权项</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -80,125 +80,125 @@ POST /v3.0/OS-USER/users
 <a name="zh-cn_topic_0221482430_request_Rq86User"></a>
 <table><thead align="left"><tr id="zh-cn_topic_0221482430_row8763150142511"><th class="cellrowborder" valign="top" width="19.98%" id="mcps1.2.5.1.1"><p id="zh-cn_topic_0221482430_p1576505011253"><a name="zh-cn_topic_0221482430_p1576505011253"></a><a name="zh-cn_topic_0221482430_p1576505011253"></a>参数</p>
 </th>
-<th class="cellrowborder" valign="top" width="10.02%" id="mcps1.2.5.1.2"><p id="zh-cn_topic_0221482430_p07665504255"><a name="zh-cn_topic_0221482430_p07665504255"></a><a name="zh-cn_topic_0221482430_p07665504255"></a>是否必选</p>
+<th class="cellrowborder" valign="top" width="10%" id="mcps1.2.5.1.2"><p id="zh-cn_topic_0221482430_p07665504255"><a name="zh-cn_topic_0221482430_p07665504255"></a><a name="zh-cn_topic_0221482430_p07665504255"></a>是否必选</p>
 </th>
-<th class="cellrowborder" valign="top" width="20%" id="mcps1.2.5.1.3"><p id="zh-cn_topic_0221482430_p17671500252"><a name="zh-cn_topic_0221482430_p17671500252"></a><a name="zh-cn_topic_0221482430_p17671500252"></a>参数类型</p>
+<th class="cellrowborder" valign="top" width="19.88%" id="mcps1.2.5.1.3"><p id="zh-cn_topic_0221482430_p17671500252"><a name="zh-cn_topic_0221482430_p17671500252"></a><a name="zh-cn_topic_0221482430_p17671500252"></a>参数类型</p>
 </th>
-<th class="cellrowborder" valign="top" width="50%" id="mcps1.2.5.1.4"><p id="zh-cn_topic_0221482430_p1676745092515"><a name="zh-cn_topic_0221482430_p1676745092515"></a><a name="zh-cn_topic_0221482430_p1676745092515"></a>描述</p>
+<th class="cellrowborder" valign="top" width="50.13999999999999%" id="mcps1.2.5.1.4"><p id="zh-cn_topic_0221482430_p1676745092515"><a name="zh-cn_topic_0221482430_p1676745092515"></a><a name="zh-cn_topic_0221482430_p1676745092515"></a>描述</p>
 </th>
 </tr>
 </thead>
 <tbody><tr id="zh-cn_topic_0221482430_row18763145062515"><td class="cellrowborder" valign="top" width="19.98%" headers="mcps1.2.5.1.1 "><p id="zh-cn_topic_0221482430_p10768105012259"><a name="zh-cn_topic_0221482430_p10768105012259"></a><a name="zh-cn_topic_0221482430_p10768105012259"></a>name</p>
 </td>
-<td class="cellrowborder" valign="top" width="10.02%" headers="mcps1.2.5.1.2 "><p id="zh-cn_topic_0221482430_p976975002515"><a name="zh-cn_topic_0221482430_p976975002515"></a><a name="zh-cn_topic_0221482430_p976975002515"></a>是</p>
+<td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.2 "><p id="zh-cn_topic_0221482430_p976975002515"><a name="zh-cn_topic_0221482430_p976975002515"></a><a name="zh-cn_topic_0221482430_p976975002515"></a>是</p>
 </td>
-<td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0221482430_p076935072511"><a name="zh-cn_topic_0221482430_p076935072511"></a><a name="zh-cn_topic_0221482430_p076935072511"></a>String</p>
+<td class="cellrowborder" valign="top" width="19.88%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0221482430_p076935072511"><a name="zh-cn_topic_0221482430_p076935072511"></a><a name="zh-cn_topic_0221482430_p076935072511"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482430_p117701350162518"><a name="zh-cn_topic_0221482430_p117701350162518"></a><a name="zh-cn_topic_0221482430_p117701350162518"></a>IAM用户名，长度1~32之间，只能包含如下字符：大小写字母、空格、数字或特殊字符（-_.）且不能以数字开头。</p>
+<td class="cellrowborder" valign="top" width="50.13999999999999%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482430_p117701350162518"><a name="zh-cn_topic_0221482430_p117701350162518"></a><a name="zh-cn_topic_0221482430_p117701350162518"></a>IAM用户名，长度1~32之间，只能包含如下字符：大小写字母、空格、数字或特殊字符（-_.）且不能以数字或空格开头。</p>
 </td>
 </tr>
 <tr id="zh-cn_topic_0221482430_row1376418507254"><td class="cellrowborder" valign="top" width="19.98%" headers="mcps1.2.5.1.1 "><p id="zh-cn_topic_0221482430_p1771165052515"><a name="zh-cn_topic_0221482430_p1771165052515"></a><a name="zh-cn_topic_0221482430_p1771165052515"></a>domain_id</p>
 </td>
-<td class="cellrowborder" valign="top" width="10.02%" headers="mcps1.2.5.1.2 "><p id="zh-cn_topic_0221482430_p577135032516"><a name="zh-cn_topic_0221482430_p577135032516"></a><a name="zh-cn_topic_0221482430_p577135032516"></a>是</p>
+<td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.2 "><p id="zh-cn_topic_0221482430_p577135032516"><a name="zh-cn_topic_0221482430_p577135032516"></a><a name="zh-cn_topic_0221482430_p577135032516"></a>是</p>
 </td>
-<td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0221482430_p1277215014254"><a name="zh-cn_topic_0221482430_p1277215014254"></a><a name="zh-cn_topic_0221482430_p1277215014254"></a>String</p>
+<td class="cellrowborder" valign="top" width="19.88%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0221482430_p1277215014254"><a name="zh-cn_topic_0221482430_p1277215014254"></a><a name="zh-cn_topic_0221482430_p1277215014254"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482430_p11772750162514"><a name="zh-cn_topic_0221482430_p11772750162514"></a><a name="zh-cn_topic_0221482430_p11772750162514"></a>IAM用户所属的帐号ID，获取方式请参见：<a href="获取帐号-IAM用户-项目-用户组-区域-委托的名称和ID.md">获取帐号、IAM用户、项目、用户组、区域、委托的名称和ID</a>。</p>
+<td class="cellrowborder" valign="top" width="50.13999999999999%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482430_p11772750162514"><a name="zh-cn_topic_0221482430_p11772750162514"></a><a name="zh-cn_topic_0221482430_p11772750162514"></a>IAM用户所属的帐号ID，获取方式请参见：<a href="获取帐号-IAM用户-项目-用户组-区域-委托的名称和ID.md">获取帐号、IAM用户、项目、用户组、区域、委托的名称和ID</a>。</p>
 </td>
 </tr>
 <tr id="zh-cn_topic_0221482430_row117641350122514"><td class="cellrowborder" valign="top" width="19.98%" headers="mcps1.2.5.1.1 "><p id="zh-cn_topic_0221482430_p27741507250"><a name="zh-cn_topic_0221482430_p27741507250"></a><a name="zh-cn_topic_0221482430_p27741507250"></a>password</p>
 </td>
-<td class="cellrowborder" valign="top" width="10.02%" headers="mcps1.2.5.1.2 "><p id="zh-cn_topic_0221482430_p277515014256"><a name="zh-cn_topic_0221482430_p277515014256"></a><a name="zh-cn_topic_0221482430_p277515014256"></a>否</p>
+<td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.2 "><p id="zh-cn_topic_0221482430_p277515014256"><a name="zh-cn_topic_0221482430_p277515014256"></a><a name="zh-cn_topic_0221482430_p277515014256"></a>否</p>
 </td>
-<td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0221482430_p1177625014252"><a name="zh-cn_topic_0221482430_p1177625014252"></a><a name="zh-cn_topic_0221482430_p1177625014252"></a>String</p>
+<td class="cellrowborder" valign="top" width="19.88%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0221482430_p1177625014252"><a name="zh-cn_topic_0221482430_p1177625014252"></a><a name="zh-cn_topic_0221482430_p1177625014252"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482430_p157764507258"><a name="zh-cn_topic_0221482430_p157764507258"></a><a name="zh-cn_topic_0221482430_p157764507258"></a>IAM用户密码。</p>
+<td class="cellrowborder" valign="top" width="50.13999999999999%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482430_p157764507258"><a name="zh-cn_topic_0221482430_p157764507258"></a><a name="zh-cn_topic_0221482430_p157764507258"></a>IAM用户密码。</p>
 </td>
 </tr>
 <tr id="zh-cn_topic_0221482430_row17764205011250"><td class="cellrowborder" valign="top" width="19.98%" headers="mcps1.2.5.1.1 "><p id="zh-cn_topic_0221482430_p077925020259"><a name="zh-cn_topic_0221482430_p077925020259"></a><a name="zh-cn_topic_0221482430_p077925020259"></a>email</p>
 </td>
-<td class="cellrowborder" valign="top" width="10.02%" headers="mcps1.2.5.1.2 "><p id="zh-cn_topic_0221482430_p117800508254"><a name="zh-cn_topic_0221482430_p117800508254"></a><a name="zh-cn_topic_0221482430_p117800508254"></a>否</p>
+<td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.2 "><p id="zh-cn_topic_0221482430_p117800508254"><a name="zh-cn_topic_0221482430_p117800508254"></a><a name="zh-cn_topic_0221482430_p117800508254"></a>否</p>
 </td>
-<td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0221482430_p1378185092516"><a name="zh-cn_topic_0221482430_p1378185092516"></a><a name="zh-cn_topic_0221482430_p1378185092516"></a>String</p>
+<td class="cellrowborder" valign="top" width="19.88%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0221482430_p1378185092516"><a name="zh-cn_topic_0221482430_p1378185092516"></a><a name="zh-cn_topic_0221482430_p1378185092516"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482430_p187825501258"><a name="zh-cn_topic_0221482430_p187825501258"></a><a name="zh-cn_topic_0221482430_p187825501258"></a>IAM用户邮箱，需符合邮箱格式，长度小于等于255位。</p>
+<td class="cellrowborder" valign="top" width="50.13999999999999%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482430_p187825501258"><a name="zh-cn_topic_0221482430_p187825501258"></a><a name="zh-cn_topic_0221482430_p187825501258"></a>IAM用户邮箱，需符合邮箱格式，长度小于等于255位。</p>
 </td>
 </tr>
 <tr id="zh-cn_topic_0221482430_row1976465012516"><td class="cellrowborder" valign="top" width="19.98%" headers="mcps1.2.5.1.1 "><p id="zh-cn_topic_0221482430_p978285017257"><a name="zh-cn_topic_0221482430_p978285017257"></a><a name="zh-cn_topic_0221482430_p978285017257"></a>areacode</p>
 </td>
-<td class="cellrowborder" valign="top" width="10.02%" headers="mcps1.2.5.1.2 "><p id="zh-cn_topic_0221482430_p4783450142513"><a name="zh-cn_topic_0221482430_p4783450142513"></a><a name="zh-cn_topic_0221482430_p4783450142513"></a>否</p>
+<td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.2 "><p id="zh-cn_topic_0221482430_p4783450142513"><a name="zh-cn_topic_0221482430_p4783450142513"></a><a name="zh-cn_topic_0221482430_p4783450142513"></a>否</p>
 </td>
-<td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0221482430_p2078375092512"><a name="zh-cn_topic_0221482430_p2078375092512"></a><a name="zh-cn_topic_0221482430_p2078375092512"></a>String</p>
+<td class="cellrowborder" valign="top" width="19.88%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0221482430_p2078375092512"><a name="zh-cn_topic_0221482430_p2078375092512"></a><a name="zh-cn_topic_0221482430_p2078375092512"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482430_p478425020258"><a name="zh-cn_topic_0221482430_p478425020258"></a><a name="zh-cn_topic_0221482430_p478425020258"></a>国家码。必须与手机号同时存在。中国大陆为“0086”。</p>
+<td class="cellrowborder" valign="top" width="50.13999999999999%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482430_p478425020258"><a name="zh-cn_topic_0221482430_p478425020258"></a><a name="zh-cn_topic_0221482430_p478425020258"></a>国家码。必须与手机号同时存在。中国大陆为“0086”。</p>
 </td>
 </tr>
 <tr id="zh-cn_topic_0221482430_row11764205013252"><td class="cellrowborder" valign="top" width="19.98%" headers="mcps1.2.5.1.1 "><p id="zh-cn_topic_0221482430_p14784125062518"><a name="zh-cn_topic_0221482430_p14784125062518"></a><a name="zh-cn_topic_0221482430_p14784125062518"></a>phone</p>
 </td>
-<td class="cellrowborder" valign="top" width="10.02%" headers="mcps1.2.5.1.2 "><p id="zh-cn_topic_0221482430_p1978514506253"><a name="zh-cn_topic_0221482430_p1978514506253"></a><a name="zh-cn_topic_0221482430_p1978514506253"></a>否</p>
+<td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.2 "><p id="zh-cn_topic_0221482430_p1978514506253"><a name="zh-cn_topic_0221482430_p1978514506253"></a><a name="zh-cn_topic_0221482430_p1978514506253"></a>否</p>
 </td>
-<td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0221482430_p97851750182516"><a name="zh-cn_topic_0221482430_p97851750182516"></a><a name="zh-cn_topic_0221482430_p97851750182516"></a>String</p>
+<td class="cellrowborder" valign="top" width="19.88%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0221482430_p97851750182516"><a name="zh-cn_topic_0221482430_p97851750182516"></a><a name="zh-cn_topic_0221482430_p97851750182516"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482430_p147861950182512"><a name="zh-cn_topic_0221482430_p147861950182512"></a><a name="zh-cn_topic_0221482430_p147861950182512"></a>IAM用户手机号，纯数字，长度小于等于32位。必须与国家码同时存在。</p>
+<td class="cellrowborder" valign="top" width="50.13999999999999%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482430_p147861950182512"><a name="zh-cn_topic_0221482430_p147861950182512"></a><a name="zh-cn_topic_0221482430_p147861950182512"></a>IAM用户手机号，纯数字，长度小于等于32位。必须与国家码同时存在。</p>
 </td>
 </tr>
 <tr id="zh-cn_topic_0221482430_row197641550142516"><td class="cellrowborder" valign="top" width="19.98%" headers="mcps1.2.5.1.1 "><p id="zh-cn_topic_0221482430_p17786195011254"><a name="zh-cn_topic_0221482430_p17786195011254"></a><a name="zh-cn_topic_0221482430_p17786195011254"></a>enabled</p>
 </td>
-<td class="cellrowborder" valign="top" width="10.02%" headers="mcps1.2.5.1.2 "><p id="zh-cn_topic_0221482430_p1978725012250"><a name="zh-cn_topic_0221482430_p1978725012250"></a><a name="zh-cn_topic_0221482430_p1978725012250"></a>否</p>
+<td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.2 "><p id="zh-cn_topic_0221482430_p1978725012250"><a name="zh-cn_topic_0221482430_p1978725012250"></a><a name="zh-cn_topic_0221482430_p1978725012250"></a>否</p>
 </td>
-<td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0221482430_p6788105012519"><a name="zh-cn_topic_0221482430_p6788105012519"></a><a name="zh-cn_topic_0221482430_p6788105012519"></a>Boolean</p>
+<td class="cellrowborder" valign="top" width="19.88%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0221482430_p6788105012519"><a name="zh-cn_topic_0221482430_p6788105012519"></a><a name="zh-cn_topic_0221482430_p6788105012519"></a>Boolean</p>
 </td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482430_p07881350122520"><a name="zh-cn_topic_0221482430_p07881350122520"></a><a name="zh-cn_topic_0221482430_p07881350122520"></a>是否启用IAM用户。true为启用，false为停用，默认为true。</p>
+<td class="cellrowborder" valign="top" width="50.13999999999999%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482430_p07881350122520"><a name="zh-cn_topic_0221482430_p07881350122520"></a><a name="zh-cn_topic_0221482430_p07881350122520"></a>是否启用IAM用户。true为启用，false为停用，默认为true。</p>
 </td>
 </tr>
 <tr id="zh-cn_topic_0221482430_row1076455042512"><td class="cellrowborder" valign="top" width="19.98%" headers="mcps1.2.5.1.1 "><p id="zh-cn_topic_0221482430_p7789750152515"><a name="zh-cn_topic_0221482430_p7789750152515"></a><a name="zh-cn_topic_0221482430_p7789750152515"></a>pwd_status</p>
 </td>
-<td class="cellrowborder" valign="top" width="10.02%" headers="mcps1.2.5.1.2 "><p id="zh-cn_topic_0221482430_p12791115020255"><a name="zh-cn_topic_0221482430_p12791115020255"></a><a name="zh-cn_topic_0221482430_p12791115020255"></a>否</p>
+<td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.2 "><p id="zh-cn_topic_0221482430_p12791115020255"><a name="zh-cn_topic_0221482430_p12791115020255"></a><a name="zh-cn_topic_0221482430_p12791115020255"></a>否</p>
 </td>
-<td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0221482430_p1679445082515"><a name="zh-cn_topic_0221482430_p1679445082515"></a><a name="zh-cn_topic_0221482430_p1679445082515"></a>Boolean</p>
+<td class="cellrowborder" valign="top" width="19.88%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0221482430_p1679445082515"><a name="zh-cn_topic_0221482430_p1679445082515"></a><a name="zh-cn_topic_0221482430_p1679445082515"></a>Boolean</p>
 </td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482430_p147945504252"><a name="zh-cn_topic_0221482430_p147945504252"></a><a name="zh-cn_topic_0221482430_p147945504252"></a>IAM用户首次登录是否重置密码，默认需要重置。</p>
+<td class="cellrowborder" valign="top" width="50.13999999999999%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482430_p147945504252"><a name="zh-cn_topic_0221482430_p147945504252"></a><a name="zh-cn_topic_0221482430_p147945504252"></a>IAM用户首次登录是否重置密码，默认需要重置。</p>
 </td>
 </tr>
 <tr id="zh-cn_topic_0221482430_row17764145072518"><td class="cellrowborder" valign="top" width="19.98%" headers="mcps1.2.5.1.1 "><p id="zh-cn_topic_0221482430_p147991450142515"><a name="zh-cn_topic_0221482430_p147991450142515"></a><a name="zh-cn_topic_0221482430_p147991450142515"></a>xuser_type</p>
 </td>
-<td class="cellrowborder" valign="top" width="10.02%" headers="mcps1.2.5.1.2 "><p id="zh-cn_topic_0221482430_p97991506252"><a name="zh-cn_topic_0221482430_p97991506252"></a><a name="zh-cn_topic_0221482430_p97991506252"></a>否</p>
+<td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.2 "><p id="zh-cn_topic_0221482430_p97991506252"><a name="zh-cn_topic_0221482430_p97991506252"></a><a name="zh-cn_topic_0221482430_p97991506252"></a>否</p>
 </td>
-<td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0221482430_p7800175002515"><a name="zh-cn_topic_0221482430_p7800175002515"></a><a name="zh-cn_topic_0221482430_p7800175002515"></a>String</p>
+<td class="cellrowborder" valign="top" width="19.88%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0221482430_p7800175002515"><a name="zh-cn_topic_0221482430_p7800175002515"></a><a name="zh-cn_topic_0221482430_p7800175002515"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482430_p1680175020252"><a name="zh-cn_topic_0221482430_p1680175020252"></a><a name="zh-cn_topic_0221482430_p1680175020252"></a>IAM用户在外部系统中的类型。长度小于等于64位。xuser_type如果存在，则需要与同一租户中的xaccount_type、xdomain_type校验，须与xuser_id同时存在。</p>
+<td class="cellrowborder" valign="top" width="50.13999999999999%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482430_p1680175020252"><a name="zh-cn_topic_0221482430_p1680175020252"></a><a name="zh-cn_topic_0221482430_p1680175020252"></a>IAM用户在外部系统中的类型。长度小于等于64位。xuser_type如果存在，则需要与同一租户中的xaccount_type、xdomain_type校验，须与xuser_id同时存在。</p>
 <div class="note" id="zh-cn_topic_0221482430_note118031650102520"><a name="zh-cn_topic_0221482430_note118031650102520"></a><a name="zh-cn_topic_0221482430_note118031650102520"></a><span class="notetitle"> 说明： </span><div class="notebody"><p id="zh-cn_topic_0221482430_p16804175013252"><a name="zh-cn_topic_0221482430_p16804175013252"></a><a name="zh-cn_topic_0221482430_p16804175013252"></a>外部系统指与华为云对接的外部企业管理系统，xaccount_type、xaccount_id、xdomain_type、xdomain_id、xuser_type、xuser_id等参数值，无法在华为云获取，请咨询企业管理员。</p>
 </div></div>
 </td>
 </tr>
 <tr id="zh-cn_topic_0221482430_row12764195018254"><td class="cellrowborder" valign="top" width="19.98%" headers="mcps1.2.5.1.1 "><p id="zh-cn_topic_0221482430_p158053509252"><a name="zh-cn_topic_0221482430_p158053509252"></a><a name="zh-cn_topic_0221482430_p158053509252"></a>xuser_id</p>
 </td>
-<td class="cellrowborder" valign="top" width="10.02%" headers="mcps1.2.5.1.2 "><p id="zh-cn_topic_0221482430_p980610508258"><a name="zh-cn_topic_0221482430_p980610508258"></a><a name="zh-cn_topic_0221482430_p980610508258"></a>否</p>
+<td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.2 "><p id="zh-cn_topic_0221482430_p980610508258"><a name="zh-cn_topic_0221482430_p980610508258"></a><a name="zh-cn_topic_0221482430_p980610508258"></a>否</p>
 </td>
-<td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0221482430_p13807185052520"><a name="zh-cn_topic_0221482430_p13807185052520"></a><a name="zh-cn_topic_0221482430_p13807185052520"></a>String</p>
+<td class="cellrowborder" valign="top" width="19.88%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0221482430_p13807185052520"><a name="zh-cn_topic_0221482430_p13807185052520"></a><a name="zh-cn_topic_0221482430_p13807185052520"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482430_p18071950162515"><a name="zh-cn_topic_0221482430_p18071950162515"></a><a name="zh-cn_topic_0221482430_p18071950162515"></a>IAM用户在外部系统中的ID。长度小于等于128位，须与xuser_type同时存在。</p>
+<td class="cellrowborder" valign="top" width="50.13999999999999%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482430_p18071950162515"><a name="zh-cn_topic_0221482430_p18071950162515"></a><a name="zh-cn_topic_0221482430_p18071950162515"></a>IAM用户在外部系统中的ID。长度小于等于128位，须与xuser_type同时存在。</p>
 <div class="note" id="zh-cn_topic_0221482430_note980910503251"><a name="zh-cn_topic_0221482430_note980910503251"></a><a name="zh-cn_topic_0221482430_note980910503251"></a><span class="notetitle"> 说明： </span><div class="notebody"><p id="zh-cn_topic_0221482430_p881015503255"><a name="zh-cn_topic_0221482430_p881015503255"></a><a name="zh-cn_topic_0221482430_p881015503255"></a>外部系统指与华为云对接的外部企业管理系统，xaccount_type、xaccount_id、xdomain_type、xdomain_id、xuser_type、xuser_id等参数值，无法在华为云获取，请咨询企业管理员。</p>
 </div></div>
 </td>
 </tr>
 <tr id="row1638119122462"><td class="cellrowborder" valign="top" width="19.98%" headers="mcps1.2.5.1.1 "><p id="p1258313510498"><a name="p1258313510498"></a><a name="p1258313510498"></a>access_mode</p>
 </td>
-<td class="cellrowborder" valign="top" width="10.02%" headers="mcps1.2.5.1.2 "><p id="p10475229114611"><a name="p10475229114611"></a><a name="p10475229114611"></a>否</p>
+<td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.2 "><p id="p10475229114611"><a name="p10475229114611"></a><a name="p10475229114611"></a>否</p>
 </td>
-<td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.3 "><p id="p185832513490"><a name="p185832513490"></a><a name="p185832513490"></a>String</p>
+<td class="cellrowborder" valign="top" width="19.88%" headers="mcps1.2.5.1.3 "><p id="p185832513490"><a name="p185832513490"></a><a name="p185832513490"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="p49107302317"><a name="p49107302317"></a><a name="p49107302317"></a>IAM用户访问方式。</p>
+<td class="cellrowborder" valign="top" width="50.13999999999999%" headers="mcps1.2.5.1.4 "><p id="p49107302317"><a name="p49107302317"></a><a name="p49107302317"></a>IAM用户访问方式。</p>
 <a name="ul101759371511"></a><a name="ul101759371511"></a><ul id="ul101759371511"><li>default：默认访问模式，编程访问和管理控制台访问。</li><li>programmatic：编程访问。</li><li>console：管理控制台访问。</li></ul>
 </td>
 </tr>
 <tr id="zh-cn_topic_0221482430_row7764250112516"><td class="cellrowborder" valign="top" width="19.98%" headers="mcps1.2.5.1.1 "><p id="zh-cn_topic_0221482430_p1811115042513"><a name="zh-cn_topic_0221482430_p1811115042513"></a><a name="zh-cn_topic_0221482430_p1811115042513"></a>description</p>
 </td>
-<td class="cellrowborder" valign="top" width="10.02%" headers="mcps1.2.5.1.2 "><p id="zh-cn_topic_0221482430_p58111350172519"><a name="zh-cn_topic_0221482430_p58111350172519"></a><a name="zh-cn_topic_0221482430_p58111350172519"></a>否</p>
+<td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.2 "><p id="zh-cn_topic_0221482430_p58111350172519"><a name="zh-cn_topic_0221482430_p58111350172519"></a><a name="zh-cn_topic_0221482430_p58111350172519"></a>否</p>
 </td>
-<td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0221482430_p9812185082516"><a name="zh-cn_topic_0221482430_p9812185082516"></a><a name="zh-cn_topic_0221482430_p9812185082516"></a>String</p>
+<td class="cellrowborder" valign="top" width="19.88%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0221482430_p9812185082516"><a name="zh-cn_topic_0221482430_p9812185082516"></a><a name="zh-cn_topic_0221482430_p9812185082516"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482430_p98126503253"><a name="zh-cn_topic_0221482430_p98126503253"></a><a name="zh-cn_topic_0221482430_p98126503253"></a>IAM用户描述信息。</p>
+<td class="cellrowborder" valign="top" width="50.13999999999999%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482430_p98126503253"><a name="zh-cn_topic_0221482430_p98126503253"></a><a name="zh-cn_topic_0221482430_p98126503253"></a>IAM用户描述信息。</p>
 </td>
 </tr>
 </tbody>
@@ -289,7 +289,7 @@ POST /v3.0/OS-USER/users
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0221482430_p0843650152514"><a name="zh-cn_topic_0221482430_p0843650152514"></a><a name="zh-cn_topic_0221482430_p0843650152514"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="60%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0221482430_p4844650182515"><a name="zh-cn_topic_0221482430_p4844650182515"></a><a name="zh-cn_topic_0221482430_p4844650182515"></a>IAM用户名，长度5~32之间，首位不能为数字，特殊字符只能包含下划线“_”、中划线“-”和空格。</p>
+<td class="cellrowborder" valign="top" width="60%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0221482430_p4844650182515"><a name="zh-cn_topic_0221482430_p4844650182515"></a><a name="zh-cn_topic_0221482430_p4844650182515"></a>IAM用户名，长度1~32之间，只能包含如下字符：大小写字母、空格、数字或特殊字符（-_.）且不能以数字或空格开头。</p>
 </td>
 </tr>
 <tr id="zh-cn_topic_0221482430_row082145013254"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.1 "><p id="zh-cn_topic_0221482430_p884455011258"><a name="zh-cn_topic_0221482430_p884455011258"></a><a name="zh-cn_topic_0221482430_p884455011258"></a>phone</p>
@@ -303,7 +303,7 @@ POST /v3.0/OS-USER/users
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0221482430_p1384735092513"><a name="zh-cn_topic_0221482430_p1384735092513"></a><a name="zh-cn_topic_0221482430_p1384735092513"></a>Boolean</p>
 </td>
-<td class="cellrowborder" valign="top" width="60%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0221482430_p1784719503258"><a name="zh-cn_topic_0221482430_p1784719503258"></a><a name="zh-cn_topic_0221482430_p1784719503258"></a>IAM用户是否为帐号<a href="https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html" target="_blank" rel="noopener noreferrer">管理员</a>。</p>
+<td class="cellrowborder" valign="top" width="60%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0221482430_p1784719503258"><a name="zh-cn_topic_0221482430_p1784719503258"></a><a name="zh-cn_topic_0221482430_p1784719503258"></a>IAM用户是否为帐号<u id="u14916158165116"><a name="u14916158165116"></a><a name="u14916158165116"></a><a href="https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html" target="_blank" rel="noopener noreferrer">管理员</a></u><u id="u1891618825115"><a name="u1891618825115"></a><a name="u1891618825115"></a></u>。</p>
 </td>
 </tr>
 <tr id="zh-cn_topic_0221482430_row8821950132518"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.1 "><p id="zh-cn_topic_0221482430_p18848105052520"><a name="zh-cn_topic_0221482430_p18848105052520"></a><a name="zh-cn_topic_0221482430_p18848105052520"></a>domain_id</p>
@@ -359,7 +359,7 @@ POST /v3.0/OS-USER/users
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0221482430_p138701350142512"><a name="zh-cn_topic_0221482430_p138701350142512"></a><a name="zh-cn_topic_0221482430_p138701350142512"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="60%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0221482430_p38711650132518"><a name="zh-cn_topic_0221482430_p38711650132518"></a><a name="zh-cn_topic_0221482430_p38711650132518"></a>IAM用户ID。</p>
+<td class="cellrowborder" valign="top" width="60%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0221482430_p38711650132518"><a name="zh-cn_topic_0221482430_p38711650132518"></a><a name="zh-cn_topic_0221482430_p38711650132518"></a>IAM用户ID。长度为32字符。</p>
 </td>
 </tr>
 <tr id="zh-cn_topic_0221482430_row9822145017253"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.1 "><p id="zh-cn_topic_0221482430_p2871135042512"><a name="zh-cn_topic_0221482430_p2871135042512"></a><a name="zh-cn_topic_0221482430_p2871135042512"></a>password_expires_at</p>

@@ -2,7 +2,7 @@
 
 ## 功能介绍<a name="zh-cn_topic_0221482391_section1388584911254"></a>
 
-该接口可以用于[管理员](https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html)查询用户组中所包含的IAM用户。
+该接口可以用于<u>[管理员](https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html)</u><u></u>查询用户组中所包含的IAM用户。
 
 该接口可以使用全局区域的Endpoint和其他区域的Endpoint调用。IAM的Endpoint请参见：[地区和终端节点](https://developer.huaweicloud.com/endpoint?IAM)。
 
@@ -69,7 +69,7 @@ GET /v3/groups/\{group\_id\}/users
 </td>
 <td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0221482391_p1890144932517"><a name="zh-cn_topic_0221482391_p1890144932517"></a><a name="zh-cn_topic_0221482391_p1890144932517"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482391_p6902449142513"><a name="zh-cn_topic_0221482391_p6902449142513"></a><a name="zh-cn_topic_0221482391_p6902449142513"></a>拥有Security Administrator权限的token。</p>
+<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482391_p6902449142513"><a name="zh-cn_topic_0221482391_p6902449142513"></a><a name="zh-cn_topic_0221482391_p6902449142513"></a>请参见<a href="授权项.md">授权项</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -318,7 +318,7 @@ GET https://iam.myhuaweicloud.com/v3/groups/{group_id}/users
     "links": {
         "next": null,
         "previous": null,
-        "self": "https://iam.huaweicloud.com/v3/groups/07609e7eb200250a3f7dc003cb7a4e2d/users"
+        "self": "https://iam.myhuaweicloud.com/v3/groups/07609e7eb200250a3f7dc003cb7a4e2d/users"
     },
     "users": [
         {
@@ -331,7 +331,7 @@ GET https://iam.myhuaweicloud.com/v3/groups/{group_id}/users
             "links": {
                 "next": null,
                 "previous": null,
-                "self": "https://iam.huaweicloud.com/v3/users/07609fb9358010e21f7bc00375..."
+                "self": "https://iam.myhuaweicloud.com/v3/users/07609fb9358010e21f7bc00375..."
             },
             "id": "07609fb9358010e21f7bc003751c7...",
             "enabled": true
@@ -346,7 +346,7 @@ GET https://iam.myhuaweicloud.com/v3/groups/{group_id}/users
             "links": {
                 "next": null,
                 "previous": null,
-                "self": "https://iam.huaweicloud.com/v3/users/076837351e80251c1f0fc003af..."
+                "self": "https://iam.myhuaweicloud.com/v3/users/076837351e80251c1f0fc003af..."
             },
             "id": "076837351e80251c1f0fc003afe43...",
             "enabled": true

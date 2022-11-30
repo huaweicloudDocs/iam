@@ -2,7 +2,7 @@
 
 ## 功能介绍<a name="zh-cn_topic_0221482425_section3530950182512"></a>
 
-该接口可以用于[管理员](https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html)创建IAM用户。IAM用户首次登录时需要修改密码。
+该接口可以用于<u>[管理员](https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html)</u><u></u>创建IAM用户。IAM用户首次登录时需要修改密码。
 
 该接口可以使用全局区域的Endpoint和其他区域的Endpoint调用。IAM的Endpoint请参见：[地区和终端节点](https://developer.huaweicloud.com/endpoint?IAM)。
 
@@ -48,7 +48,7 @@ POST /v3/users
 </td>
 <td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0221482425_p6548145010255"><a name="zh-cn_topic_0221482425_p6548145010255"></a><a name="zh-cn_topic_0221482425_p6548145010255"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482425_p185481450162510"><a name="zh-cn_topic_0221482425_p185481450162510"></a><a name="zh-cn_topic_0221482425_p185481450162510"></a>拥有Security Administrator权限的token。</p>
+<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482425_p185481450162510"><a name="zh-cn_topic_0221482425_p185481450162510"></a><a name="zh-cn_topic_0221482425_p185481450162510"></a>请参见<a href="授权项.md">授权项</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -98,7 +98,7 @@ POST /v3/users
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0221482425_p1156655072514"><a name="zh-cn_topic_0221482425_p1156655072514"></a><a name="zh-cn_topic_0221482425_p1156655072514"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482425_p9566175092519"><a name="zh-cn_topic_0221482425_p9566175092519"></a><a name="zh-cn_topic_0221482425_p9566175092519"></a>IAM用户名，长度1~32之间，只能包含如下字符：大小写字母、空格、数字或特殊字符（-_.）且不能以数字开头。</p>
+<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482425_p9566175092519"><a name="zh-cn_topic_0221482425_p9566175092519"></a><a name="zh-cn_topic_0221482425_p9566175092519"></a>IAM用户名，长度1~32之间，只能包含如下字符：大小写字母、空格、数字或特殊字符（-_.）且不能以数字或空格开头。</p>
 </td>
 </tr>
 <tr id="zh-cn_topic_0221482425_row7559850172516"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.1 "><p id="zh-cn_topic_0221482425_p0567450152514"><a name="zh-cn_topic_0221482425_p0567450152514"></a><a name="zh-cn_topic_0221482425_p0567450152514"></a>domain_id</p>

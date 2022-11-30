@@ -101,7 +101,7 @@ GET /v3/users
 </td>
 <td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0221482398_p479963792318"><a name="zh-cn_topic_0221482398_p479963792318"></a><a name="zh-cn_topic_0221482398_p479963792318"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482398_p4800133742320"><a name="zh-cn_topic_0221482398_p4800133742320"></a><a name="zh-cn_topic_0221482398_p4800133742320"></a>拥有Security Administrator权限的token。</p>
+<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482398_p4800133742320"><a name="zh-cn_topic_0221482398_p4800133742320"></a><a name="zh-cn_topic_0221482398_p4800133742320"></a>请参见<a href="授权项.md">授权项</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -314,7 +314,7 @@ GET https://iam.myhuaweicloud.com/v3/users
     "links": {
         "next": null,
         "previous": null,
-        "self": "https://iam.huaweicloud.com/v3/users"
+        "self": "https://iam.myhuaweicloud.com/v3/users"
     },
     "users": [
         {
@@ -325,14 +325,14 @@ GET https://iam.myhuaweicloud.com/v3/users
             "links": {
                 "next": null,
                 "previous": null,
-                "self": "https://iam.huaweicloud.com/v3/users/07667db96a00265f1fc0c003a3..."
+                "self": "https://iam.myhuaweicloud.com/v3/users/07667db96a00265f1fc0c003a3..."
             },
             "id": "07667db96a00265f1fc0c003a...",
             "enabled": true
         },
         {
             "pwd_status": true,
-            "domain_id": ""d78cbac186b744899480f25bd02...",
+            "domain_id": "d78cbac186b744899480f25bd02...",
             "last_project_id": "065a7c66da0010992ff7c0031e5a...",
 
             "name": "IAMUserB",
@@ -341,7 +341,7 @@ GET https://iam.myhuaweicloud.com/v3/users
             "links": {
                 "next": null,
                 "previous": null,
-                "self": "https://iam.huaweicloud.com/v3/users/07609fb9358010e21f7bc003751c7..."
+                "self": "https://iam.myhuaweicloud.com/v3/users/07609fb9358010e21f7bc003751c7..."
             },
             "id": "07609fb9358010e21f7bc003751c7...",
             "enabled": true

@@ -2,7 +2,7 @@
 
 ## 功能介绍<a name="section6273126173813"></a>
 
-该接口可以用于[管理员](https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html)修改IAM用户的登录保护状态信息。
+该接口可以用于<u>[管理员](https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html)</u><u></u>修改IAM用户的登录保护状态信息。
 
 该接口可以使用全局区域的Endpoint和其他区域的Endpoint调用。IAM的Endpoint请参见：[地区和终端节点](https://developer.huaweicloud.com/endpoint?IAM)。
 
@@ -245,7 +245,7 @@ PUT https://iam.myhuaweicloud.com/v3.0/OS-USER/users/{user_id}/login-protect
 </tr>
 <tr id="row4899185514013"><td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.3.1.1 "><p id="p4900125513015"><a name="p4900125513015"></a><a name="p4900125513015"></a>404</p>
 </td>
-<td class="cellrowborder" valign="top" width="85%" headers="mcps1.1.3.1.2 "><p id="p18900855108"><a name="p18900855108"></a><a name="p18900855108"></a><span>未找到相应的资源。</span></p>
+<td class="cellrowborder" valign="top" width="85%" headers="mcps1.1.3.1.2 "><p id="p18900855108"><a name="p18900855108"></a><a name="p18900855108"></a>未找到相应的资源。</p>
 </td>
 </tr>
 <tr id="row7763113075317"><td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.3.1.1 "><p id="p12316336105313"><a name="p12316336105313"></a><a name="p12316336105313"></a>500</p>

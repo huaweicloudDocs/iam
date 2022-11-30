@@ -2,7 +2,7 @@
 
 ## 功能介绍<a name="zh-cn_topic_0224276912_section14111103315508"></a>
 
-该接口可以用于[管理员](https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html)导入Metadata文件。
+该接口可以用于<u>[管理员](https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html)</u><u></u>导入Metadata文件。
 
 帐号在使用联邦认证功能前，需要先将Metadata文件导入到IAM中。Metadata文件是SAML 2.0协议约定的接口文件，包含访问接口地址和证书信息，请找企业管理员获取企业IdP的Metadata文件。
 
@@ -35,7 +35,7 @@ POST /v3-ext/OS-FEDERATION/identity\_providers/\{idp\_id\}/protocols/\{protocol\
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0224276912_p181205338509"><a name="zh-cn_topic_0224276912_p181205338509"></a><a name="zh-cn_topic_0224276912_p181205338509"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0224276912_p20121123319501"><a name="zh-cn_topic_0224276912_p20121123319501"></a><a name="zh-cn_topic_0224276912_p20121123319501"></a>身份提供商ID。</p>
+<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0224276985_p134475234912"><a name="zh-cn_topic_0224276985_p134475234912"></a><a name="zh-cn_topic_0224276985_p134475234912"></a>身份提供商名称。</p>
 </td>
 </tr>
 <tr id="zh-cn_topic_0224276912_row14116033155019"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.1 "><p id="zh-cn_topic_0224276912_p4121933175016"><a name="zh-cn_topic_0224276912_p4121933175016"></a><a name="zh-cn_topic_0224276912_p4121933175016"></a>protocol_id</p>
@@ -80,7 +80,7 @@ POST /v3-ext/OS-FEDERATION/identity\_providers/\{idp\_id\}/protocols/\{protocol\
 </td>
 <td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0224276912_p513133355016"><a name="zh-cn_topic_0224276912_p513133355016"></a><a name="zh-cn_topic_0224276912_p513133355016"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0224276912_p3131133315010"><a name="zh-cn_topic_0224276912_p3131133315010"></a><a name="zh-cn_topic_0224276912_p3131133315010"></a>拥有Security Administrator权限的token。</p>
+<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0224276912_p3131133315010"><a name="zh-cn_topic_0224276912_p3131133315010"></a><a name="zh-cn_topic_0224276912_p3131133315010"></a>请参见<a href="授权项.md">授权项</a>。</p>
 </td>
 </tr>
 </tbody>

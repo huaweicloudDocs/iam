@@ -2,23 +2,68 @@
 
 ## 功能介绍<a name="zh-cn_topic_0221482385_section365913610201"></a>
 
-该接口可以用于**通过用户名/密码+虚拟MFA**的方式进行认证，在IAM用户**开启了的登录保护功能，并选择通过虚拟MFA验证时**获取IAM用户Token。
-
-Token是系统颁发给用户的访问令牌，承载用户的身份、权限等信息。调用IAM以及其他云服务的接口时，可以使用本接口获取的Token进行鉴权。
+该接口可以用于**通过用户名/密码+虚拟MFA**的方式进行认证，在IAM用户**开启了的登录保护功能，并选择通过虚拟MFA验证时**获取IAM用户Token。Token是系统颁发给用户的访问令牌，承载用户的身份、权限等信息。调用IAM以及其他云服务的接口时，可以使用本接口获取的Token进行鉴权。
 
 该接口可以使用全局区域的Endpoint和其他区域的Endpoint调用。IAM的Endpoint请参见：[地区和终端节点](https://developer.huaweicloud.com/endpoint?IAM)。
 
-Token的**有效期为24小时**，建议进行缓存，避免频繁调用。使用Token前请确保Token离过期有足够的时间，防止调用API的过程中Token过期导致调用API失败。重新获取Token，不影响已有Token有效性。在Token有效期内进行如下操作，当前Token将立即失效：
+接口使用导航：
 
--   删除/停用IAM用户
--   修改IAM用户密码、访问密钥
--   IAM用户权限发生变化（如帐号欠费无法访问访问云服务、申请公测通过、IAM用户权限被修改等）
+[IAM用户获取Token](#li195948474711)
 
->![](public_sys-resources/icon-note.gif) **说明：** 
->-   如果您的华为云帐号已升级为华为帐号，将不支持获取帐号Token，建议您为自己创建一个IAM用户，授予该用户必要的权限，获取IAM用户Token。
->-   如果您是第三方系统用户，直接使用联邦认证的用户名和密码获取Token，系统会提示密码错误。请先在华为云的登录页面，通过“忘记密码”功能，设置**原华为云帐号密码**。
->-   如果需要获取具有Security Administrator权限的Token，请参见：[如何获取Security Administrator权限的Token](https://support.huaweicloud.com/iam_faq/iam_01_0608.html)。
->-   通过Postman获取用户Token示例请参见：[如何通过Postman获取用户Token](https://support.huaweicloud.com/iam_faq/iam_01_034.html)。
+[判断当前帐号是华为帐号还是华为云帐号](#li1259418424719)
+
+[华为帐号获取Token](#li459416444716)
+
+[华为云帐号获取Token](#li1559494164710)
+
+[第三方系统用户获取Token](#li39831231144816)
+
+[Token有效期说明](#li1959414494712)
+
+[获取Token常见问题](#li14578141615014)
+
+[其他相关操作](#li1997694715497)
+
+-   <a name="li195948474711"></a>**IAM用户获取Token**
+
+    无特殊要求，请按照[请求参数](#zh-cn_topic_0221482385_section15662126152010)说明获取Token。
+
+-   <a name="li1259418424719"></a>**判断当前帐号是华为帐号还是华为云帐号**
+
+    华为帐号不支持直接获取帐号Token，排查是否为华为帐号请参见：[怎么知道当前登录华为云使用的是“华为帐号” 还是“华为云账号”？](https://support.huaweicloud.com/account_faq/faq_id_0009.html)
+
+-   <a name="li459416444716"></a>**华为帐号获取Token**
+
+    华为账号获取token请参加以下步骤：[创建一个IAM用户](https://support.huaweicloud.com/usermanual-iam/iam_02_0001.html)，[授予该用户必要的权限](https://support.huaweicloud.com/usermanual-iam/iam_03_0001.html)，使用创建的IAM用户，获取IAM用户Token。
+
+-   <a name="li1559494164710"></a>**华为云帐号获取Token**
+
+    无特殊要求，请按照[请求参数](#zh-cn_topic_0221482385_section15662126152010)说明获取Token。
+
+-   <a name="li39831231144816"></a>**第三方系统用户获取Token**
+
+    如果您是第三方系统用户，直接使用联邦认证的用户名和密码获取Token，系统会提示密码错误。请先在华为云的登录页面，通过“忘记密码”功能，设置**华为云帐号密码**。
+
+-   <a name="li1959414494712"></a>**Token有效期说明**
+    -   Token的有效期为**24小时**。建议进行缓存，避免频繁调用。使用Token前请确保Token离过期有足够的时间，防止调用API的过程中Token过期导致调用API失败。重新获取Token，不影响已有Token有效性。
+    -   如果在Token有效期内进行如下操作，**当前Token将立即失效。**
+        -   删除/停用IAM用户。
+        -   修改IAM用户密码、访问密钥。
+        -   IAM用户权限发生变化（如帐号欠费无法访问云服务、申请公测通过、IAM用户权限被修改等）。
+
+    -   使用Token调用云服务API时， 返回“**The token must be updated**”，则Token过期，需要客户端重新获取Token。
+
+-   <a name="li14578141615014"></a>**获取Token常见问题**
+
+    用户名或密码错误：请排查输入的用户名和密码是否正确。用户名密码正确但是仍旧报错，请排查[当前获取Token的帐号是否为华为帐号](#li1259418424719)，华为帐号不支持直接获取Token，请新建IAM用户并授权，使用IAM用户获取Token。
+
+    没有API访问权限：调用API前，请确保已[开启编程访问](https://support.huaweicloud.com/usermanual-iam/iam_02_0002.html#section0)。
+
+
+-   <a name="li1997694715497"></a>**相关操作**
+    -   如果需要获取具有Security Administrator权限的Token，请参见：[如何获取Security Administrator权限的Token](https://support.huaweicloud.com/iam_faq/iam_01_0608.html)。
+    -   通过Postman获取用户Token示例请参见：[如何通过Postman获取用户Token](https://support.huaweicloud.com/iam_faq/iam_01_034.html)。
+
 
 ## 调试<a name="section4819151065317"></a>
 
@@ -134,7 +179,7 @@ POST /v3/auth/tokens
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0221482385_p466910617206"><a name="zh-cn_topic_0221482385_p466910617206"></a><a name="zh-cn_topic_0221482385_p466910617206"></a>Object</p>
 </td>
 <td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482385_p2669666201"><a name="zh-cn_topic_0221482385_p2669666201"></a><a name="zh-cn_topic_0221482385_p2669666201"></a>Token的使用范围，取值为project或domain，二选一即可。</p>
-<div class="note" id="zh-cn_topic_0221482385_note96691665204"><a name="zh-cn_topic_0221482385_note96691665204"></a><a name="zh-cn_topic_0221482385_note96691665204"></a><span class="notetitle"> 说明： </span><div class="notebody"><a name="ul5202151812299"></a><a name="ul5202151812299"></a><ul id="ul5202151812299"><li>如果您将scope设置为<strong id="b20301125835510"><a name="b20301125835510"></a><a name="b20301125835510"></a>domain</strong>，该Token适用于<strong id="b13301358175518"><a name="b13301358175518"></a><a name="b13301358175518"></a>全局级服务</strong>。</li><li>如果将scope设置为<strong id="b686319479555"><a name="b686319479555"></a><a name="b686319479555"></a>project</strong>，该Token适用于<strong id="b19176134915553"><a name="b19176134915553"></a><a name="b19176134915553"></a>项目级服务</strong>。</li><li>如果您将scope设置为<strong id="b11307152125513"><a name="b11307152125513"></a><a name="b11307152125513"></a>project和domain</strong>，将<strong id="b672520615565"><a name="b672520615565"></a><a name="b672520615565"></a>以project参数为准</strong>，获取到<strong id="b1955121014568"><a name="b1955121014568"></a><a name="b1955121014568"></a>项目级服务</strong>的Token。</li></ul>
+<div class="note" id="zh-cn_topic_0221482385_note96691665204"><a name="zh-cn_topic_0221482385_note96691665204"></a><a name="zh-cn_topic_0221482385_note96691665204"></a><span class="notetitle"> 说明： </span><div class="notebody"><a name="ul5202151812299"></a><a name="ul5202151812299"></a><ul id="ul5202151812299"><li><strong id="b019019355911"><a name="b019019355911"></a><a name="b019019355911"></a>如果您将scope设置为domain，该Token适用于全局级服务；如果将scope设置为project，该Token适用于项目级服务。</strong></li><li><strong id="b1619683514911"><a name="b1619683514911"></a><a name="b1619683514911"></a>如果您将scope同时设置为project和domain，将以project参数为准，获取到项目级服务的Token。</strong></li><li><strong id="b517718469334"><a name="b517718469334"></a><a name="b517718469334"></a>如果您将scope置空，将获取到全局级服务的Token。建议您按需要填写Token使用范围。</strong></li></ul>
 </div></div>
 </td>
 </tr>
@@ -232,7 +277,7 @@ POST /v3/auth/tokens
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0221482385_p267617620207"><a name="zh-cn_topic_0221482385_p267617620207"></a><a name="zh-cn_topic_0221482385_p267617620207"></a>Object</p>
 </td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482385_p167715611205"><a name="zh-cn_topic_0221482385_p167715611205"></a><a name="zh-cn_topic_0221482385_p167715611205"></a>IAM用户所属帐号信息。</p>
+<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482385_p167715611205"><a name="zh-cn_topic_0221482385_p167715611205"></a><a name="zh-cn_topic_0221482385_p167715611205"></a>IAM用户所属帐号信息。了解<a href="https://support.huaweicloud.com/productdesc-iam/iam_01_0023.html#section2" target="_blank" rel="noopener noreferrer">帐号与IAM用户的关系</a>。</p>
 </td>
 </tr>
 <tr id="zh-cn_topic_0221482385_row967514672017"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.1 "><p id="zh-cn_topic_0221482385_p20677186132013"><a name="zh-cn_topic_0221482385_p20677186132013"></a><a name="zh-cn_topic_0221482385_p20677186132013"></a>name</p>
@@ -251,7 +296,7 @@ POST /v3/auth/tokens
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0221482385_p2067810618208"><a name="zh-cn_topic_0221482385_p2067810618208"></a><a name="zh-cn_topic_0221482385_p2067810618208"></a>String</p>
 </td>
 <td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482385_p8678196152010"><a name="zh-cn_topic_0221482385_p8678196152010"></a><a name="zh-cn_topic_0221482385_p8678196152010"></a>IAM用户的登录密码。</p>
-<div class="note" id="note1890710512544"><a name="note1890710512544"></a><a name="note1890710512544"></a><span class="notetitle"> 说明： </span><div class="notebody"><a name="ul817215473474"></a><a name="ul817215473474"></a><ul id="ul817215473474"><li>务必保证密码输入正确，避免获取Token失败。</li><li>如果您是第三方系统用户，直接使用联邦认证的用户名和密码获取Token，系统会提示密码错误。请在华为云的登录页面，通过“忘记密码”功能，设置<strong id="b6344163941417"><a name="b6344163941417"></a><a name="b6344163941417"></a>原华为云帐号密码</strong>，并在password中输入新设置的密码。</li></ul>
+<div class="note" id="note1890710512544"><a name="note1890710512544"></a><a name="note1890710512544"></a><span class="notetitle"> 说明： </span><div class="notebody"><a name="ul817215473474"></a><a name="ul817215473474"></a><ul id="ul817215473474"><li>务必保证密码输入正确，避免获取Token失败。</li><li>如果您是第三方系统用户，直接使用联邦认证的用户名和密码获取Token，系统会提示密码错误。请在华为云的登录页面，通过“忘记密码”功能，设置<strong id="b10344113918147"><a name="b10344113918147"></a><a name="b10344113918147"></a>华为云帐号密码</strong>，并在password中输入新设置的密码。</li></ul>
 </div></div>
 </td>
 </tr>
@@ -277,7 +322,7 @@ POST /v3/auth/tokens
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0221482385_p1968086182013"><a name="zh-cn_topic_0221482385_p1968086182013"></a><a name="zh-cn_topic_0221482385_p1968086182013"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482385_p7680363205"><a name="zh-cn_topic_0221482385_p7680363205"></a><a name="zh-cn_topic_0221482385_p7680363205"></a>IAM用户所属帐号名。</p>
+<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482385_p7680363205"><a name="zh-cn_topic_0221482385_p7680363205"></a><a name="zh-cn_topic_0221482385_p7680363205"></a>IAM用户所属帐号名称，获取方式请参见：<a href="获取帐号-IAM用户-项目-用户组-区域-委托的名称和ID.md">获取帐号、IAM用户、项目、用户组、区域、委托的名称和ID</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -937,7 +982,7 @@ POST /v3/auth/tokens
 -   示例 1：获取IAM用户名为“IAMUser”，密码为“IAMPassword”，所属帐号名为“IAMDomain”，作用范围为整个帐号的Token。
 
     ```
-    响应Header参数：
+    响应Header参数（获取到的Token）：
     X-Subject-Token:MIIatAYJKoZIhvcNAQcCoIIapTCCGqECAQExDTALB...
     ```
 
@@ -973,7 +1018,7 @@ POST /v3/auth/tokens
                             "interface": "public",
                             "region": "*",
                             "region_id": "*",
-                            "url": "https://bss.myhuaweicloud.com/v1.0"
+                            "url": "https://bss.sample.domain.com/v1.0"
                         }
                     ],
                     "id": "c6db69fabbd549908adcb861c7e47...",
@@ -1017,7 +1062,7 @@ POST /v3/auth/tokens
 -   示例 2：获取IAM用户名为“IAMUser”，密码为“IAMPassword”，所属帐号名为“IAMDomain”，作用范围为项目“cn-north-1”，且返回的响应体中将不显示catalog信息的Token。
 
     ```
-    响应Header参数：
+    响应Header参数（获取到的Token）：
     X-Subject-Token:MIIatAYJKoZIhvcNAQcCoIIapTCCGqECAQExDTALB...
     ```
 
@@ -1087,7 +1132,7 @@ POST /v3/auth/tokens
 
 认证失败。
 
--   如果您是第三方系统用户，直接使用联邦认证的用户名和密码获取Token，系统会提示密码错误。请在华为云的登录页面，通过“忘记密码”功能，设置**原华为云帐号密码**，并在password中输入新设置的密码。
+-   如果您是第三方系统用户，直接使用联邦认证的用户名和密码获取Token，系统会提示密码错误。请在华为云的登录页面，通过“忘记密码”功能，设置**华为云帐号密码**，并在password中输入新设置的密码。
 -   如果您的华为云帐号已升级为华为帐号，直接使用华为帐号名和密码获取Token，系统会提示密码错误。建议您为自己创建一个IAM用户，授予该用户必要的权限，获取IAM用户Token。
 
 ```
