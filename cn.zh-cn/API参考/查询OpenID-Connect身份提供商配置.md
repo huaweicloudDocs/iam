@@ -2,7 +2,7 @@
 
 ## 功能介绍<a name="section155844154423"></a>
 
-该接口可以用于<u>[管理员](https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html)</u><u></u>  查询OpenID Connect身份提供商配置。
+该接口可以用于<u>[管理员](https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html)</u><u></u>查询OpenID Connect身份提供商配置。
 
 该接口可以使用全局区域的Endpoint和其他区域的Endpoint调用。IAM的Endpoint请参见：[地区和终端节点](https://developer.huaweicloud.com/endpoint?IAM)。
 
@@ -70,7 +70,8 @@ GET /v3.0/OS-FEDERATION/identity-providers/\{idp\_id\}/openid-connect-config
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.3 "><p id="p188151915204212"><a name="p188151915204212"></a><a name="p188151915204212"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="p081515154426"><a name="p081515154426"></a><a name="p081515154426"></a>请参见<a href="授权项.md">授权项</a>。</p>
+<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="p958114514536"><a name="p958114514536"></a><a name="p958114514536"></a>访问令牌，承载用户的身份、权限等信息。</p>
+<p id="p1858117519536"><a name="p1858117519536"></a><a name="p1858117519536"></a>token所需权限请参见<a href="授权项.md">授权项</a>。</p>
 </td>
 </tr>
 </tbody>

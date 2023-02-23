@@ -2,7 +2,7 @@
 
 ## 功能介绍<a name="zh-cn_topic_0221482391_section1388584911254"></a>
 
-该接口可以用于<u>[管理员](https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html)</u><u></u>查询用户组中所包含的IAM用户。
+该接口可以用于<u>[管理员](https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html)</u><u></u>guanliyuan查询用户组中所包含的IAM用户。
 
 该接口可以使用全局区域的Endpoint和其他区域的Endpoint调用。IAM的Endpoint请参见：[地区和终端节点](https://developer.huaweicloud.com/endpoint?IAM)。
 
@@ -69,7 +69,8 @@ GET /v3/groups/\{group\_id\}/users
 </td>
 <td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0221482391_p1890144932517"><a name="zh-cn_topic_0221482391_p1890144932517"></a><a name="zh-cn_topic_0221482391_p1890144932517"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482391_p6902449142513"><a name="zh-cn_topic_0221482391_p6902449142513"></a><a name="zh-cn_topic_0221482391_p6902449142513"></a>请参见<a href="授权项.md">授权项</a>。</p>
+<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="p829165019435"><a name="p829165019435"></a><a name="p829165019435"></a>访问令牌，承载用户的身份、权限等信息。</p>
+<p id="p1929850174316"><a name="p1929850174316"></a><a name="p1929850174316"></a>token所需权限请参见<a href="授权项.md">授权项</a>。</p>
 </td>
 </tr>
 </tbody>

@@ -750,7 +750,7 @@
 </tr>
 <tr id="row13181201605912"><td class="cellrowborder" valign="top" width="30.86%" headers="mcps1.1.3.1.1 "><p id="p318131665918"><a name="p318131665918"></a><a name="p318131665918"></a><a href="删除SAML身份提供商.md">删除SAML身份提供商</a></p>
 </td>
-<td class="cellrowborder" valign="top" width="69.14%" headers="mcps1.1.3.1.2 "><p id="p418191615599"><a name="p418191615599"></a><a name="p418191615599"></a>该接口可以用于<a href="https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html" target="_blank" rel="noopener noreferrer">管理员</a> 删除身份提供商。</p>
+<td class="cellrowborder" valign="top" width="69.14%" headers="mcps1.1.3.1.2 "><p id="p418191615599"><a name="p418191615599"></a><a name="p418191615599"></a>该接口可以用于<a href="https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html" target="_blank" rel="noopener noreferrer">管理员</a>删除身份提供商。</p>
 </td>
 </tr>
 <tr id="row9124935392"><td class="cellrowborder" valign="top" width="30.86%" headers="mcps1.1.3.1.1 "><p id="p20124143514920"><a name="p20124143514920"></a><a name="p20124143514920"></a><a href="查询映射列表.md">查询映射列表</a></p>

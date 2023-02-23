@@ -4,7 +4,7 @@
 
 该接口可以用于通过委托来获取临时访问密钥（临时AK/SK）和securitytoken。
 
-临时AK/SK和securitytoken是系统颁发给IAM用户的临时访问令牌，有效期可在15分钟至24小时范围内设置，过期后需要重新获取。临时AK/SK和securitytoken遵循权限最小化原则。鉴权时，临时AK/SK和securitytoken必须同时使用，请求头中需要添加“x-security-token”字段，使用方法详情请参考：[使用临时AK/SK做签名](https://support.huaweicloud.com/devg-apisign/api-sign-securetoken.html)。
+临时AK/SK和securitytoken是系统颁发给IAM用户的临时访问令牌，有效期可在15分钟至24小时范围内设置，过期后需要重新获取。临时AK/SK和securitytoken遵循权限最小化原则。鉴权时，临时AK/SK和securitytoken必须同时使用，请求头中需要添加“x-security-token”字段，使用方法详情请参考：[使用临时AK/SK做签名](https://support.huaweicloud.com/devg-apisign/api-sign-securetoken.html)《API签名指南》中“使用临时AK/SK做签名”章节。
 
 该接口可以使用全局区域的Endpoint和其他区域的Endpoint调用。IAM的Endpoint请参见：[地区和终端节点](https://developer.huaweicloud.com/endpoint?IAM)。
 

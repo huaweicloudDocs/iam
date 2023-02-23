@@ -2,7 +2,7 @@
 
 ## 功能介绍<a name="zh-cn_topic_0224276870_section14911125185016"></a>
 
-该接口可以用于<u>[管理员](https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html)</u><u></u>  删除基于SAML协议的身份提供商。
+该接口可以用于<u>[管理员](https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html)</u><u></u>删除基于SAML协议的身份提供商。
 
 该接口可以使用全局区域的Endpoint和其他区域的Endpoint调用。IAM的Endpoint请参见：[地区和终端节点](https://developer.huaweicloud.com/endpoint?IAM)。
 
@@ -69,7 +69,8 @@ DELETE /v3/OS-FEDERATION/identity\_providers/\{id\}
 </td>
 <td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0224276870_p2920855502"><a name="zh-cn_topic_0224276870_p2920855502"></a><a name="zh-cn_topic_0224276870_p2920855502"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0224276870_p792010516507"><a name="zh-cn_topic_0224276870_p792010516507"></a><a name="zh-cn_topic_0224276870_p792010516507"></a>请参见<a href="授权项.md">授权项</a>。</p>
+<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="p5571827155315"><a name="p5571827155315"></a><a name="p5571827155315"></a>访问令牌，承载用户的身份、权限等信息。</p>
+<p id="p175712276532"><a name="p175712276532"></a><a name="p175712276532"></a>token所需权限请参见<a href="授权项.md">授权项</a>。</p>
 </td>
 </tr>
 </tbody>

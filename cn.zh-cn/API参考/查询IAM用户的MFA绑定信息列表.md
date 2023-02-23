@@ -35,7 +35,8 @@ GET /v3.0/OS-MFA/virtual-mfa-devices
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.3 "><p id="p6856145214366"><a name="p6856145214366"></a><a name="p6856145214366"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="p9856152143613"><a name="p9856152143613"></a><a name="p9856152143613"></a>请参见<a href="授权项.md">授权项</a>。</p>
+<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="p105018393521"><a name="p105018393521"></a><a name="p105018393521"></a>访问令牌，承载用户的身份、权限等信息。</p>
+<p id="p1750213935213"><a name="p1750213935213"></a><a name="p1750213935213"></a>token所需权限请参见<a href="授权项.md">授权项</a>。</p>
 </td>
 </tr>
 </tbody>

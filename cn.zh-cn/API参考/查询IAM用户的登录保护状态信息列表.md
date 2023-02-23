@@ -35,7 +35,8 @@ GET /v3.0/OS-USER/login-protects
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.3 "><p id="p3538133317375"><a name="p3538133317375"></a><a name="p3538133317375"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="p953853315377"><a name="p953853315377"></a><a name="p953853315377"></a>请参见<a href="授权项.md">授权项</a>。</p>
+<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="p72635014523"><a name="p72635014523"></a><a name="p72635014523"></a>访问令牌，承载用户的身份、权限等信息。</p>
+<p id="p02635005216"><a name="p02635005216"></a><a name="p02635005216"></a>token所需权限请参见<a href="授权项.md">授权项</a>。</p>
 </td>
 </tr>
 </tbody>

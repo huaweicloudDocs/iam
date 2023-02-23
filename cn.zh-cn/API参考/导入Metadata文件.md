@@ -80,7 +80,8 @@ POST /v3-ext/OS-FEDERATION/identity\_providers/\{idp\_id\}/protocols/\{protocol\
 </td>
 <td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0224276912_p513133355016"><a name="zh-cn_topic_0224276912_p513133355016"></a><a name="zh-cn_topic_0224276912_p513133355016"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0224276912_p3131133315010"><a name="zh-cn_topic_0224276912_p3131133315010"></a><a name="zh-cn_topic_0224276912_p3131133315010"></a>请参见<a href="授权项.md">授权项</a>。</p>
+<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="p1660104731011"><a name="p1660104731011"></a><a name="p1660104731011"></a>访问令牌，承载用户的身份、权限等信息。</p>
+<p id="p1560347141016"><a name="p1560347141016"></a><a name="p1560347141016"></a>token所需权限请参见<a href="授权项.md">授权项</a>。</p>
 </td>
 </tr>
 </tbody>

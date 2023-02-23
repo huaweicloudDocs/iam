@@ -408,7 +408,7 @@ POST /v3/auth/tokens
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0221482385_p1268666142012"><a name="zh-cn_topic_0221482385_p1268666142012"></a><a name="zh-cn_topic_0221482385_p1268666142012"></a>Object</p>
 </td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482476_p193963531941"><a name="zh-cn_topic_0221482476_p193963531941"></a><a name="zh-cn_topic_0221482476_p193963531941"></a>取值为domain时，表示获取的Token可以作用于全局服务，全局服务不区分项目或区域，如OBS服务。如需了解服务作用范围，请参考<strong id="b18450101362919"><a name="b18450101362919"></a><a name="b18450101362919"></a><a href="https://support.huaweicloud.com/usermanual-permissions/iam_01_0001.html" target="_blank" rel="noopener noreferrer">系统权限</a></strong>。domain支持id和name，二选一即可，建议选择“domain_id”。</p>
+<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482476_p193963531941"><a name="zh-cn_topic_0221482476_p193963531941"></a><a name="zh-cn_topic_0221482476_p193963531941"></a>取值为domain时，表示获取的Token可以作用于全局服务，全局服务不区分项目或区域，如OBS服务。如需了解服务作用范围，请参考<strong id="b18450101362919"><a name="b18450101362919"></a><a name="b18450101362919"></a><a href="https://support.huaweicloud.com/usermanual-permissions/iam_01_0001.html" target="_blank" rel="noopener noreferrer">系统权限</a></strong>。domain支持id和name，二选一即可，建议选择“domain.id”。</p>
 </td>
 </tr>
 <tr id="zh-cn_topic_0221482385_row1568426172012"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.1 "><p id="zh-cn_topic_0221482385_p176868614205"><a name="zh-cn_topic_0221482385_p176868614205"></a><a name="zh-cn_topic_0221482385_p176868614205"></a><a href="#zh-cn_topic_0221482385_request_Rq31AuthScopeProject">project</a></p>

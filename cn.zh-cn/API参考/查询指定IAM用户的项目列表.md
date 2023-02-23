@@ -69,7 +69,8 @@ GET /v3/users/\{user\_id\}/projects
 </td>
 <td class="cellrowborder" valign="top" width="12.9%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0221482392_p1580410206405"><a name="zh-cn_topic_0221482392_p1580410206405"></a><a name="zh-cn_topic_0221482392_p1580410206405"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="60.160000000000004%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0221482392_p58051820144016"><a name="zh-cn_topic_0221482392_p58051820144016"></a><a name="zh-cn_topic_0221482392_p58051820144016"></a><a href="https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html" target="_blank" rel="noopener noreferrer">管理员</a>查询指定IAM用户的项目列表：请参见<a href="授权项.md">授权项</a>。</p>
+<td class="cellrowborder" valign="top" width="60.160000000000004%" headers="mcps1.2.5.1.4 "><p id="p1850516269412"><a name="p1850516269412"></a><a name="p1850516269412"></a>访问令牌，承载用户的身份、权限等信息。</p>
+<p id="zh-cn_topic_0221482392_p58051820144016"><a name="zh-cn_topic_0221482392_p58051820144016"></a><a name="zh-cn_topic_0221482392_p58051820144016"></a><a href="https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html" target="_blank" rel="noopener noreferrer">管理员</a>查询指定IAM用户的项目列表：请参见<a href="授权项.md">授权项</a>。</p>
 <p id="zh-cn_topic_0221482392_p7805122011406"><a name="zh-cn_topic_0221482392_p7805122011406"></a><a name="zh-cn_topic_0221482392_p7805122011406"></a>IAM用户查询自身项目列表：URL中user_id所对应IAM用户的token（无需特殊权限）。</p>
 </td>
 </tr>
